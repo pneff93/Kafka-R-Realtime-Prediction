@@ -1,531 +1,1000 @@
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
-{"species": "Perch", "length_1": 17.2, "length_2": 19.0,"length_3": 20.2, "height":  5.6358, "width": 3.0502}
-{"species": "Bream", "length_1": 33.5, "length_2": 37.0,"length_3": 42.6, "height": 18.9570, "width": 6.6030}
-{"species": "Parkki", "length_1": 13.5, "length_2": 14.7,"length_3": 16.5, "height":  6.8475, "width": 2.3265}
-{"species": "Pike", "length_1": 31.7, "length_2": 34.0,"length_3": 37.8, "height":  5.7078, "width": 4.1580}
-{"species": "Roach", "length_1": 25.0, "length_2": 27.0,"length_3": 30.6, "height":  8.5680, "width": 4.7736}
-{"species": "Perch", "length_1": 20.5, "length_2": 22.5,"length_3": 24.0, "height":  5.8560, "width": 3.6240}
-{"species": "Pike", "length_1": 34.8, "length_2": 37.3,"length_3": 39.8, "height":  6.2884, "width": 4.0198}
-{"species": "Roach", "length_1": 17.5, "length_2": 18.8,"length_3": 21.2, "height":  5.5756, "width": 2.9044}
-{"species": "Perch", "length_1": 23.0, "length_2": 25.0,"length_3": 26.5, "height":  6.4395, "width": 3.6835}
-{"species": "Perch", "length_1": 41.1, "length_2": 44.0,"length_3": 46.6, "height": 12.4888, "width": 7.5958}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  5.8750, "width": 3.5250}
-{"species": "Perch", "length_1": 17.8, "length_2": 19.6,"length_3": 20.8, "height":  5.1376, "width": 3.0368}
-{"species": "Perch", "length_1": 40.1, "length_2": 43.0,"length_3": 45.5, "height": 12.5125, "width": 7.4165}
-{"species": "Perch", "length_1": 25.2, "length_2": 27.3,"length_3": 28.7, "height":  8.3230, "width": 5.1373}
-{"species": "Smelt", "length_1": 11.7, "length_2": 12.4,"length_3": 13.5, "height":  2.4300, "width": 1.2690}
-{"species": "Bream", "length_1": 28.5, "length_2": 30.7,"length_3": 36.2, "height": 14.2266, "width": 4.9594}
-{"species": "Perch", "length_1": 36.5, "length_2": 39.0,"length_3": 41.4, "height": 11.1366, "width": 7.4934}
-{"species": "Parkki", "length_1": 23.0, "length_2": 25.0,"length_3": 28.0, "height": 11.0880, "width": 4.1440}
-{"species": "Pike", "length_1": 36.0, "length_2": 38.5,"length_3": 41.0, "height":  6.3960, "width": 3.9770}
-{"species": "Smelt", "length_1": 13.2, "length_2": 14.3,"length_3": 15.2, "height":  2.8728, "width": 2.0672}
-{"species": "Perch", "length_1": 16.8, "length_2": 18.7,"length_3": 19.4, "height":  5.1992, "width": 3.1234}
-{"species": "Roach", "length_1": 22.0, "length_2": 23.4,"length_3": 26.7, "height":  6.9153, "width": 3.6312}
-{"species": "Perch", "length_1": 32.0, "length_2": 34.5,"length_3": 36.5, "height": 10.2565, "width": 6.3875}
-{"species": "Perch", "length_1": 22.6, "length_2": 24.6,"length_3": 26.2, "height":  6.7334, "width": 4.1658}
-{"species": "Perch", "length_1": 39.8, "length_2": 43.0,"length_3": 45.2, "height": 11.9328, "width": 7.2772}
-{"species": "Bream", "length_1": 31.3, "length_2": 34.0,"length_3": 39.5, "height": 15.1285, "width": 5.5695}
-{"species": "Pike", "length_1": 43.2, "length_2": 46.0,"length_3": 48.7, "height":  7.7920, "width": 4.8700}
-{"species": "Bream", "length_1": 23.2, "length_2": 25.4,"length_3": 30.0, "height": 11.5200, "width": 4.0200}
-{"species": "Perch", "length_1": 23.5, "length_2": 25.6,"length_3": 27.0, "height":  6.5610, "width": 4.2390}
-{"species": "Smelt", "length_1": 11.4, "length_2": 12.0,"length_3": 13.2, "height":  2.2044, "width": 1.1484}
-{"species": "Bream", "length_1": 27.6, "length_2": 30.0,"length_3": 35.0, "height": 12.6700, "width": 4.6900}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.2838}
-{"species": "Perch", "length_1": 37.1, "length_2": 40.0,"length_3": 42.5, "height": 11.1350, "width": 6.6300}
-{"species": "Parkki", "length_1": 19.0, "length_2": 20.7,"length_3": 23.2, "height":  8.5376, "width": 3.2944}
-{"species": "Perch", "length_1": 12.5, "length_2": 13.7,"length_3": 14.7, "height":  3.5280, "width": 1.9992}
-{"species": "Pike", "length_1": 48.3, "length_2": 51.7,"length_3": 55.1, "height":  8.9262, "width": 6.1712}
-{"species": "Perch", "length_1": 15.7, "length_2": 17.4,"length_3": 18.5, "height":  4.5880, "width": 2.9415}
-{"species": "Bream", "length_1": 36.2, "length_2": 39.5,"length_3": 45.3, "height": 18.7542, "width": 6.7497}
-{"species": "Whitefish", "length_1": 33.7, "length_2": 36.4,"length_3": 39.6, "height": 11.7612, "width": 6.5736}
-{"species": "Pike", "length_1": 30.0, "length_2": 32.3,"length_3": 34.8, "height":  5.5680, "width": 3.3756}
-{"species": "Pike", "length_1": 59.0, "length_2": 63.4,"length_3": 68.0, "height": 10.8120, "width": 7.4800}
-{"species": "Bream", "length_1": 28.4, "length_2": 31.0,"length_3": 36.2, "height": 14.2628, "width": 5.1042}
-{"species": "Perch", "length_1": 19.0, "length_2": 21.0,"length_3": 22.5, "height":  5.9175, "width": 3.3075}
-{"species": "Pike", "length_1": 35.5, "length_2": 38.0,"length_3": 40.5, "height":  7.2900, "width": 4.5765}
-{"species": "Perch", "length_1": 26.9, "length_2": 28.7,"length_3": 30.1, "height":  7.5852, "width": 4.6354}
-{"species": "Parkki", "length_1": 24.0, "length_2": 26.0,"length_3": 29.0, "height": 11.3680, "width": 4.2340}
-{"species": "Smelt", "length_1": 11.3, "length_2": 11.8,"length_3": 13.1, "height":  2.2139, "width": 1.1659}
-{"species": "Roach", "length_1": 18.2, "length_2": 19.8,"length_3": 22.2, "height":  5.6166, "width": 3.1746}
-{"species": "Whitefish", "length_1": 37.3, "length_2": 40.0,"length_3": 43.5, "height": 12.3540, "width": 6.5250}
-{"species": "Perch", "length_1": 36.9, "length_2": 40.0,"length_3": 42.3, "height": 11.9286, "width": 7.1064}
-{"species": "Bream", "length_1": 29.1, "length_2": 31.5,"length_3": 36.4, "height": 13.7592, "width": 4.3680}
-{"species": "Bream", "length_1": 32.8, "length_2": 36.0,"length_3": 41.6, "height": 16.8896, "width": 6.1984}
-{"species": "Roach", "length_1": 22.0, "length_2": 24.0,"length_3": 27.2, "height":  7.5344, "width": 3.8352}
-{"species": "Perch", "length_1": 20.0, "length_2": 22.0,"length_3": 23.5, "height":  6.1100, "width": 3.5250}
-{"species": "Perch", "length_1": 19.3, "length_2": 21.3,"length_3": 22.8, "height":  6.3840, "width": 3.5340}
-{"species": "Bream", "length_1": 26.8, "length_2": 29.7,"length_3": 34.7, "height": 13.6024, "width": 4.9274}
-{"species": "Bream", "length_1": 37.4, "length_2": 41.0,"length_3": 45.9, "height": 18.6354, "width": 6.7473}
-{"species": "Perch", "length_1": 21.5, "length_2": 23.5,"length_3": 25.0, "height":  6.2750, "width": 3.7250}
-{"species": "Parkki", "length_1": 16.3, "length_2": 17.7,"length_3": 19.8, "height":  7.4052, "width": 2.6730}
+{"Length": 85.489, "Height": 20.098}
+{"Length": 88.658, "Height": 20.181}
+{"Length": 87.605, "Height": 19.588}
+{"Length": 92.434, "Height": 20.076}
+{"Length": 88.585, "Height": 20.137}
+{"Length": 89.593, "Height": 19.76}
+{"Length": 85.091, "Height": 19.147}
+{"Length": 91.573, "Height": 20.066}
+{"Length": 83.874, "Height": 18.576}
+{"Length": 86.201, "Height": 18.625}
+{"Length": 88.449, "Height": 17.949}
+{"Length": 88.481, "Height": 17.712}
+{"Length": 86.992, "Height": 19.523}
+{"Length": 91.699, "Height": 18.919}
+{"Length": 88.617, "Height": 17.925}
+{"Length": 87.853, "Height": 19.429}
+{"Length": 86.056, "Height": 18.801}
+{"Length": 90.554, "Height": 18.284}
+{"Length": 83.431, "Height": 18.696}
+{"Length": 99.551, "Height": 18.738}
+{"Length": 85.81, "Height": 19.039}
+{"Length": 91.82, "Height": 19.063}
+{"Length": 89.31, "Height": 19.556}
+{"Length": 91.867, "Height": 18.883}
+{"Length": 83.928, "Height": 18.428}
+{"Length": 85.808, "Height": 19.273}
+{"Length": 84.399, "Height": 18.163}
+{"Length": 89.155, "Height": 18.837}
+{"Length": 82.211, "Height": 19.529}
+{"Length": 89.235, "Height": 18.497}
+{"Length": 87.544, "Height": 20.228}
+{"Length": 96.787, "Height": 18.203}
+{"Length": 87.31, "Height": 19.181}
+{"Length": 87.444, "Height": 18.13}
+{"Length": 84.55, "Height": 17.615}
+{"Length": 86.891, "Height": 18.487}
+{"Length": 88.915, "Height": 20.121}
+{"Length": 90.087, "Height": 18.846}
+{"Length": 93.327, "Height": 18.643}
+{"Length": 92.851, "Height": 20.236}
+{"Length": 87.492, "Height": 19.754}
+{"Length": 95.016, "Height": 19.921}
+{"Length": 79.116, "Height": 19.672}
+{"Length": 91.114, "Height": 19.336}
+{"Length": 85.389, "Height": 18.655}
+{"Length": 94.611, "Height": 19.427}
+{"Length": 86.183, "Height": 17.774}
+{"Length": 94.595, "Height": 18.962}
+{"Length": 88.219, "Height": 19.407}
+{"Length": 78.607, "Height": 19.43}
+{"Length": 85.765, "Height": 18.964}
+{"Length": 79.307, "Height": 17.509}
+{"Length": 88.894, "Height": 19.335}
+{"Length": 97.487, "Height": 19.834}
+{"Length": 76.64, "Height": 20.372}
+{"Length": 92.902, "Height": 17.747}
+{"Length": 81.006, "Height": 19.021}
+{"Length": 97.124, "Height": 19.31}
+{"Length": 94.906, "Height": 19.723}
+{"Length": 83.806, "Height": 18.966}
+{"Length": 86.69, "Height": 19.168}
+{"Length": 87.656, "Height": 19.457}
+{"Length": 86.106, "Height": 19.213}
+{"Length": 100.91, "Height": 16.004}
+{"Length": 88.649, "Height": 18.959}
+{"Length": 84.435, "Height": 19.279}
+{"Length": 91.19, "Height": 19.921}
+{"Length": 89.008, "Height": 18.165}
+{"Length": 87.65, "Height": 20.131}
+{"Length": 87.538, "Height": 18.051}
+{"Length": 90.245, "Height": 20.392}
+{"Length": 82.678, "Height": 18.705}
+{"Length": 82.188, "Height": 19.506}
+{"Length": 96.243, "Height": 21.906}
+{"Length": 77.69, "Height": 19.032}
+{"Length": 88.064, "Height": 18.145}
+{"Length": 82.562, "Height": 19.754}
+{"Length": 89.353, "Height": 20.039}
+{"Length": 93.042, "Height": 21.416}
+{"Length": 77.628, "Height": 20.496}
+{"Length": 92.484, "Height": 18.236}
+{"Length": 87.75, "Height": 19.303}
+{"Length": 81.273, "Height": 19.434}
+{"Length": 78.344, "Height": 18.979}
+{"Length": 91.548, "Height": 17.508}
+{"Length": 87.21, "Height": 16.645}
+{"Length": 89.082, "Height": 19.646}
+{"Length": 92.087, "Height": 19.414}
+{"Length": 96.636, "Height": 19.856}
+{"Length": 87.481, "Height": 17.476}
+{"Length": 85.214, "Height": 18.994}
+{"Length": 95.142, "Height": 17.683}
+{"Length": 83.535, "Height": 18.991}
+{"Length": 82.212, "Height": 18.969}
+{"Length": 85.349, "Height": 17.316}
+{"Length": 100.228, "Height": 19.664}
+{"Length": 83.838, "Height": 17.349}
+{"Length": 90.068, "Height": 19.535}
+{"Length": 82.107, "Height": 19.214}
+{"Length": 82.13, "Height": 19.687}
+{"Length": 86.335, "Height": 19.183}
+{"Length": 94.816, "Height": 17.583}
+{"Length": 85.654, "Height": 19.755}
+{"Length": 92.214, "Height": 19.889}
+{"Length": 80.71, "Height": 18.306}
+{"Length": 85.998, "Height": 17.14}
+{"Length": 84.118, "Height": 19.346}
+{"Length": 86.154, "Height": 21.468}
+{"Length": 94.201, "Height": 19.334}
+{"Length": 87.463, "Height": 18.019}
+{"Length": 88.863, "Height": 16.541}
+{"Length": 89.273, "Height": 16.69}
+{"Length": 84.927, "Height": 20.097}
+{"Length": 80.854, "Height": 19.307}
+{"Length": 86.345, "Height": 17.806}
+{"Length": 88.642, "Height": 20.21}
+{"Length": 93.091, "Height": 20.408}
+{"Length": 86.722, "Height": 19.936}
+{"Length": 86.487, "Height": 19.524}
+{"Length": 96.076, "Height": 18.188}
+{"Length": 84.131, "Height": 17.984}
+{"Length": 90.12, "Height": 17.518}
+{"Length": 85.08, "Height": 20.462}
+{"Length": 90.075, "Height": 20.472}
+{"Length": 80.274, "Height": 20.016}
+{"Length": 85.406, "Height": 17.711}
+{"Length": 86.601, "Height": 18.461}
+{"Length": 93.037, "Height": 18.513}
+{"Length": 85.652, "Height": 17.841}
+{"Length": 89.489, "Height": 19.315}
+{"Length": 85.911, "Height": 19.31}
+{"Length": 83.748, "Height": 18.07}
+{"Length": 91.445, "Height": 17.96}
+{"Length": 85.699, "Height": 18.562}
+{"Length": 94.741, "Height": 19.188}
+{"Length": 90.215, "Height": 17.034}
+{"Length": 87.245, "Height": 18.089}
+{"Length": 90.278, "Height": 18.106}
+{"Length": 87.799, "Height": 17.449}
+{"Length": 90.281, "Height": 18.89}
+{"Length": 85.958, "Height": 19.156}
+{"Length": 77.318, "Height": 18.719}
+{"Length": 88.784, "Height": 17.776}
+{"Length": 91.3, "Height": 18.667}
+{"Length": 83.091, "Height": 19.002}
+{"Length": 82.432, "Height": 17.87}
+{"Length": 85.813, "Height": 18.735}
+{"Length": 85.419, "Height": 19.463}
+{"Length": 90.095, "Height": 19.138}
+{"Length": 88.671, "Height": 18.539}
+{"Length": 93.173, "Height": 18.337}
+{"Length": 96.268, "Height": 18.76}
+{"Length": 87.91, "Height": 18.574}
+{"Length": 87.879, "Height": 18.858}
+{"Length": 89.251, "Height": 17.962}
+{"Length": 86.314, "Height": 19.545}
+{"Length": 87.433, "Height": 18.931}
+{"Length": 87.506, "Height": 20.371}
+{"Length": 89.32, "Height": 21.747}
+{"Length": 88.695, "Height": 18.604}
+{"Length": 86.789, "Height": 18.955}
+{"Length": 88.295, "Height": 19.231}
+{"Length": 87.114, "Height": 19.932}
+{"Length": 91.973, "Height": 18.19}
+{"Length": 88.034, "Height": 18.68}
+{"Length": 84.851, "Height": 19.699}
+{"Length": 86.738, "Height": 18.822}
+{"Length": 84.548, "Height": 17.99}
+{"Length": 89.013, "Height": 19.682}
+{"Length": 92.232, "Height": 19.69}
+{"Length": 91.16, "Height": 20.46}
+{"Length": 89.007, "Height": 18.849}
+{"Length": 87.545, "Height": 17.931}
+{"Length": 89.447, "Height": 19.779}
+{"Length": 87.727, "Height": 19.473}
+{"Length": 77.791, "Height": 18.217}
+{"Length": 89.792, "Height": 19.137}
+{"Length": 86.137, "Height": 19.4}
+{"Length": 94.342, "Height": 18.578}
+{"Length": 98.843, "Height": 20.866}
+{"Length": 81.801, "Height": 19.552}
+{"Length": 90.949, "Height": 18.664}
+{"Length": 88.62, "Height": 19.302}
+{"Length": 85.381, "Height": 18.098}
+{"Length": 91.101, "Height": 19.765}
+{"Length": 91.541, "Height": 19.787}
+{"Length": 87.534, "Height": 20.442}
+{"Length": 86.524, "Height": 19.019}
+{"Length": 82.571, "Height": 20.045}
+{"Length": 84.876, "Height": 18.626}
+{"Length": 86.835, "Height": 18.357}
+{"Length": 86.746, "Height": 18.211}
+{"Length": 92.769, "Height": 19.027}
+{"Length": 86.67, "Height": 18.694}
+{"Length": 97.476, "Height": 20.042}
+{"Length": 85.85, "Height": 18.583}
+{"Length": 95.878, "Height": 19.019}
+{"Length": 88.81, "Height": 18.977}
+{"Length": 82.573, "Height": 18.61}
+{"Length": 90.885, "Height": 17.131}
+{"Length": 88.141, "Height": 20.656}
+{"Length": 86.216, "Height": 18.479}
+{"Length": 92.263, "Height": 19.608}
+{"Length": 90.567, "Height": 19.434}
+{"Length": 93.091, "Height": 18.295}
+{"Length": 82.893, "Height": 19.135}
+{"Length": 85.192, "Height": 17.183}
+{"Length": 82.937, "Height": 19.168}
+{"Length": 72.896, "Height": 19.271}
+{"Length": 89.662, "Height": 19.566}
+{"Length": 94.203, "Height": 18.509}
+{"Length": 91.357, "Height": 19.494}
+{"Length": 81.35, "Height": 17.13}
+{"Length": 83.747, "Height": 20.264}
+{"Length": 79.056, "Height": 18.339}
+{"Length": 94.158, "Height": 18.793}
+{"Length": 86.328, "Height": 19.582}
+{"Length": 83.163, "Height": 18.679}
+{"Length": 92.397, "Height": 17.907}
+{"Length": 86.732, "Height": 17.677}
+{"Length": 80.411, "Height": 21.077}
+{"Length": 87.881, "Height": 19.197}
+{"Length": 88.133, "Height": 19.334}
+{"Length": 88.818, "Height": 19.5}
+{"Length": 90.05, "Height": 20.472}
+{"Length": 84.863, "Height": 16.994}
+{"Length": 91.185, "Height": 18.717}
+{"Length": 81.99, "Height": 19.75}
+{"Length": 94.733, "Height": 20.035}
+{"Length": 85.006, "Height": 20.116}
+{"Length": 90.211, "Height": 17.478}
+{"Length": 91.068, "Height": 18.794}
+{"Length": 86.505, "Height": 18.607}
+{"Length": 79.997, "Height": 19.689}
+{"Length": 86.303, "Height": 18.028}
+{"Length": 85.093, "Height": 18.348}
+{"Length": 86.048, "Height": 20.233}
+{"Length": 92.228, "Height": 19.887}
+{"Length": 91.424, "Height": 19.186}
+{"Length": 89.189, "Height": 19.517}
+{"Length": 84.447, "Height": 19.262}
+{"Length": 101.067, "Height": 19.286}
+{"Length": 79.867, "Height": 18.452}
+{"Length": 79.963, "Height": 19.669}
+{"Length": 89.702, "Height": 17.735}
+{"Length": 101.639, "Height": 18.391}
+{"Length": 86.364, "Height": 20.238}
+{"Length": 81.716, "Height": 17.361}
+{"Length": 85.843, "Height": 18.88}
+{"Length": 100.744, "Height": 18.431}
+{"Length": 84.143, "Height": 17.517}
+{"Length": 85.463, "Height": 20.472}
+{"Length": 86.65, "Height": 19.156}
+{"Length": 91.741, "Height": 19.116}
+{"Length": 91.343, "Height": 19.479}
+{"Length": 85.724, "Height": 20.494}
+{"Length": 78.361, "Height": 20.172}
+{"Length": 97.41, "Height": 20.598}
+{"Length": 81.751, "Height": 16.798}
+{"Length": 85.553, "Height": 16.993}
+{"Length": 89.077, "Height": 18.901}
+{"Length": 90.111, "Height": 19.416}
+{"Length": 81.894, "Height": 19.06}
+{"Length": 89.561, "Height": 17.988}
+{"Length": 92.432, "Height": 18.018}
+{"Length": 90.374, "Height": 20.005}
+{"Length": 92.349, "Height": 20.316}
+{"Length": 83.567, "Height": 18.28}
+{"Length": 87.357, "Height": 18.73}
+{"Length": 93.483, "Height": 20.77}
+{"Length": 90.59, "Height": 19.63}
+{"Length": 89.99, "Height": 18.038}
+{"Length": 93.333, "Height": 18.666}
+{"Length": 85.752, "Height": 19.397}
+{"Length": 91.131, "Height": 17.927}
+{"Length": 83.906, "Height": 19.818}
+{"Length": 86.682, "Height": 18.635}
+{"Length": 88.773, "Height": 18.982}
+{"Length": 90.842, "Height": 19.554}
+{"Length": 74.699, "Height": 17.547}
+{"Length": 93.683, "Height": 20.411}
+{"Length": 90.109, "Height": 20.357}
+{"Length": 94.75, "Height": 18.367}
+{"Length": 93.519, "Height": 17.149}
+{"Length": 91.235, "Height": 18.434}
+{"Length": 88.878, "Height": 17.662}
+{"Length": 91.268, "Height": 18.964}
+{"Length": 87.673, "Height": 19.408}
+{"Length": 91.228, "Height": 20.322}
+{"Length": 89.821, "Height": 20.646}
+{"Length": 92.217, "Height": 17.067}
+{"Length": 84.618, "Height": 19.686}
+{"Length": 86.043, "Height": 20.705}
+{"Length": 90.025, "Height": 19.352}
+{"Length": 82.466, "Height": 19.394}
+{"Length": 86.083, "Height": 19.442}
+{"Length": 89.47, "Height": 17.914}
+{"Length": 96.965, "Height": 18.102}
+{"Length": 92.07, "Height": 19.868}
+{"Length": 81.4, "Height": 18.018}
+{"Length": 78.723, "Height": 19.935}
+{"Length": 82.907, "Height": 18.295}
+{"Length": 82.774, "Height": 18.506}
+{"Length": 84.744, "Height": 18.483}
+{"Length": 89.913, "Height": 18.553}
+{"Length": 93.159, "Height": 17.881}
+{"Length": 88.655, "Height": 18.54}
+{"Length": 89.886, "Height": 17.787}
+{"Length": 78.562, "Height": 19.127}
+{"Length": 90.601, "Height": 20.026}
+{"Length": 92.296, "Height": 18.431}
+{"Length": 83.988, "Height": 20.928}
+{"Length": 85.54, "Height": 19.012}
+{"Length": 86.945, "Height": 18.961}
+{"Length": 85.682, "Height": 20.738}
+{"Length": 89.497, "Height": 19.332}
+{"Length": 84.973, "Height": 20.275}
+{"Length": 85.805, "Height": 20.121}
+{"Length": 84.396, "Height": 19.092}
+{"Length": 91.904, "Height": 19.614}
+{"Length": 81.889, "Height": 18.21}
+{"Length": 92.456, "Height": 17.692}
+{"Length": 89.27, "Height": 18.724}
+{"Length": 87.671, "Height": 19.904}
+{"Length": 89.007, "Height": 18.365}
+{"Length": 100.389, "Height": 19.476}
+{"Length": 90.359, "Height": 19.606}
+{"Length": 94.631, "Height": 18.823}
+{"Length": 91.343, "Height": 18.932}
+{"Length": 87.313, "Height": 18.994}
+{"Length": 80.944, "Height": 21.011}
+{"Length": 94.002, "Height": 20.499}
+{"Length": 89.495, "Height": 19.12}
+{"Length": 90.281, "Height": 19.308}
+{"Length": 90.19, "Height": 19.312}
+{"Length": 86.925, "Height": 17.565}
+{"Length": 86.439, "Height": 18.409}
+{"Length": 84.537, "Height": 19.684}
+{"Length": 76.019, "Height": 18.736}
+{"Length": 80.079, "Height": 19.191}
+{"Length": 96.794, "Height": 18.278}
+{"Length": 76.186, "Height": 18.89}
+{"Length": 89.966, "Height": 19.513}
+{"Length": 90.83, "Height": 18.478}
+{"Length": 82.78, "Height": 18.715}
+{"Length": 93.116, "Height": 18.354}
+{"Length": 85.437, "Height": 20.399}
+{"Length": 88.239, "Height": 19.414}
+{"Length": 94.964, "Height": 18.044}
+{"Length": 85.838, "Height": 18.201}
+{"Length": 87.324, "Height": 19.158}
+{"Length": 94.489, "Height": 19.63}
+{"Length": 87.646, "Height": 17.873}
+{"Length": 85.896, "Height": 18.336}
+{"Length": 93.707, "Height": 18.71}
+{"Length": 85.864, "Height": 18.008}
+{"Length": 94.978, "Height": 17.347}
+{"Length": 86.519, "Height": 18.044}
+{"Length": 90.913, "Height": 20.99}
+{"Length": 74.619, "Height": 18.366}
+{"Length": 80.997, "Height": 21.005}
+{"Length": 104.521, "Height": 17.196}
+{"Length": 92.284, "Height": 17.748}
+{"Length": 93.805, "Height": 19.149}
+{"Length": 89.395, "Height": 18.809}
+{"Length": 87.932, "Height": 20.375}
+{"Length": 74.618, "Height": 19.27}
+{"Length": 88.607, "Height": 19.219}
+{"Length": 85.497, "Height": 19.277}
+{"Length": 94.898, "Height": 18.569}
+{"Length": 85.97, "Height": 19.5}
+{"Length": 94.98, "Height": 20.871}
+{"Length": 91.693, "Height": 18.147}
+{"Length": 91.683, "Height": 18.164}
+{"Length": 84.335, "Height": 18.822}
+{"Length": 78.508, "Height": 19.472}
+{"Length": 90.229, "Height": 18.042}
+{"Length": 90.281, "Height": 17.893}
+{"Length": 80.369, "Height": 17.903}
+{"Length": 87.597, "Height": 19.283}
+{"Length": 86.3, "Height": 17.676}
+{"Length": 88.268, "Height": 20.923}
+{"Length": 84.542, "Height": 19.418}
+{"Length": 86.483, "Height": 20.107}
+{"Length": 82.025, "Height": 20.22}
+{"Length": 93.099, "Height": 19.047}
+{"Length": 85.608, "Height": 19.284}
+{"Length": 84.703, "Height": 18.814}
+{"Length": 91.394, "Height": 17.737}
+{"Length": 87.473, "Height": 18.765}
+{"Length": 85.731, "Height": 19.535}
+{"Length": 94.707, "Height": 19.728}
+{"Length": 92.93, "Height": 18.552}
+{"Length": 82.023, "Height": 19.275}
+{"Length": 85.126, "Height": 16.53}
+{"Length": 92.91, "Height": 19.759}
+{"Length": 79.713, "Height": 18.279}
+{"Length": 82.402, "Height": 18.684}
+{"Length": 82.146, "Height": 20.142}
+{"Length": 82.305, "Height": 19.506}
+{"Length": 81.576, "Height": 17.717}
+{"Length": 87.291, "Height": 19.564}
+{"Length": 95.194, "Height": 17.97}
+{"Length": 82.8, "Height": 20.037}
+{"Length": 82.881, "Height": 18.884}
+{"Length": 93.474, "Height": 18.175}
+{"Length": 77.93, "Height": 17.224}
+{"Length": 82.767, "Height": 17.594}
+{"Length": 92.167, "Height": 20.942}
+{"Length": 91.043, "Height": 19.301}
+{"Length": 93.42, "Height": 18.903}
+{"Length": 88.864, "Height": 20.987}
+{"Length": 95.581, "Height": 19.454}
+{"Length": 86.914, "Height": 19.791}
+{"Length": 87.459, "Height": 19.274}
+{"Length": 86.211, "Height": 17.332}
+{"Length": 89.635, "Height": 18.081}
+{"Length": 77.935, "Height": 18.397}
+{"Length": 87.252, "Height": 17.671}
+{"Length": 83.339, "Height": 19.834}
+{"Length": 89.392, "Height": 19.056}
+{"Length": 92.084, "Height": 18.963}
+{"Length": 85.849, "Height": 19.506}
+{"Length": 90.862, "Height": 19.494}
+{"Length": 88.885, "Height": 17.764}
+{"Length": 93.568, "Height": 19.287}
+{"Length": 85.064, "Height": 18.547}
+{"Length": 79.309, "Height": 19.271}
+{"Length": 91.268, "Height": 18.807}
+{"Length": 87.067, "Height": 19.874}
+{"Length": 91.197, "Height": 20.339}
+{"Length": 87.841, "Height": 17.461}
+{"Length": 93.011, "Height": 17.508}
+{"Length": 84.795, "Height": 21.367}
+{"Length": 89.255, "Height": 19.505}
+{"Length": 90.875, "Height": 18.064}
+{"Length": 84.825, "Height": 18.423}
+{"Length": 92.286, "Height": 19.819}
+{"Length": 93.524, "Height": 19.413}
+{"Length": 75.974, "Height": 17.275}
+{"Length": 84.495, "Height": 17.446}
+{"Length": 88.142, "Height": 18.226}
+{"Length": 96.587, "Height": 19.58}
+{"Length": 82.359, "Height": 21.686}
+{"Length": 93.431, "Height": 18.809}
+{"Length": 94.529, "Height": 19.77}
+{"Length": 83.059, "Height": 19.201}
+{"Length": 86.863, "Height": 18.422}
+{"Length": 87.289, "Height": 21.038}
+{"Length": 89.98, "Height": 18.07}
+{"Length": 78.303, "Height": 18.462}
+{"Length": 71.396, "Height": 18.386}
+{"Length": 92.71, "Height": 18.264}
+{"Length": 88.186, "Height": 18.028}
+{"Length": 86.707, "Height": 17.257}
+{"Length": 89.722, "Height": 19.7}
+{"Length": 88.747, "Height": 19.046}
+{"Length": 92.702, "Height": 17.609}
+{"Length": 76.91, "Height": 20.802}
+{"Length": 79.032, "Height": 17.674}
+{"Length": 96.461, "Height": 17.271}
+{"Length": 79.638, "Height": 18.739}
+{"Length": 79.314, "Height": 18.92}
+{"Length": 87.867, "Height": 19.126}
+{"Length": 88.329, "Height": 20.206}
+{"Length": 80.688, "Height": 19.341}
+{"Length": 85.903, "Height": 19.483}
+{"Length": 90.884, "Height": 21.552}
+{"Length": 84.965, "Height": 19.726}
+{"Length": 87.654, "Height": 17.975}
+{"Length": 94.67, "Height": 19.867}
+{"Length": 84.161, "Height": 18.7}
+{"Length": 90.766, "Height": 19.33}
+{"Length": 79.457, "Height": 17.668}
+{"Length": 85.366, "Height": 16.473}
+{"Length": 98.319, "Height": 17.702}
+{"Length": 90.119, "Height": 20.296}
+{"Length": 93.043, "Height": 19.778}
+{"Length": 94.806, "Height": 20.034}
+{"Length": 87.47, "Height": 18.278}
+{"Length": 88.208, "Height": 19.984}
+{"Length": 93.599, "Height": 19.623}
+{"Length": 89.196, "Height": 17.606}
+{"Length": 82.805, "Height": 19.106}
+{"Length": 85.541, "Height": 20.411}
+{"Length": 89.921, "Height": 19.428}
+{"Length": 87.263, "Height": 18.481}
+{"Length": 84.748, "Height": 19.515}
+{"Length": 88.282, "Height": 17.984}
+{"Length": 86.767, "Height": 18.55}
+{"Length": 94.181, "Height": 19.242}
+{"Length": 87.108, "Height": 18.569}
+{"Length": 94.182, "Height": 19.473}
+{"Length": 82.589, "Height": 18.706}
+{"Length": 85.529, "Height": 19.648}
+{"Length": 79.444, "Height": 17.815}
+{"Length": 88.2, "Height": 20.039}
+{"Length": 85.194, "Height": 17.602}
+{"Length": 75.213, "Height": 19.201}
+{"Length": 84.516, "Height": 18.398}
+{"Length": 80.769, "Height": 17.847}
+{"Length": 89.579, "Height": 19.464}
+{"Length": 86.286, "Height": 19.729}
+{"Length": 78.343, "Height": 19.411}
+{"Length": 89.214, "Height": 17.539}
+{"Length": 86.186, "Height": 18.981}
+{"Length": 100.164, "Height": 20.693}
+{"Length": 90.96, "Height": 19.009}
+{"Length": 85.119, "Height": 19.497}
+{"Length": 90.033, "Height": 19.167}
+{"Length": 87.774, "Height": 18.763}
+{"Length": 90.205, "Height": 19.445}
+{"Length": 99.177, "Height": 17.746}
+{"Length": 85.069, "Height": 19.034}
+{"Length": 90.997, "Height": 19.012}
+{"Length": 94.371, "Height": 20.155}
+{"Length": 83.441, "Height": 20.207}
+{"Length": 81.123, "Height": 18.371}
+{"Length": 86.561, "Height": 20.371}
+{"Length": 88.407, "Height": 19.733}
+{"Length": 89.689, "Height": 19.349}
+{"Length": 90.831, "Height": 19.487}
+{"Length": 83.329, "Height": 19.322}
+{"Length": 96.634, "Height": 18.229}
+{"Length": 95.942, "Height": 16.773}
+{"Length": 82.813, "Height": 21.381}
+{"Length": 89.848, "Height": 19.436}
+{"Length": 90.193, "Height": 18.878}
+{"Length": 83.61, "Height": 21.342}
+{"Length": 91.805, "Height": 18.356}
+{"Length": 88.321, "Height": 19.381}
+{"Length": 99.492, "Height": 19.637}
+{"Length": 81.5, "Height": 17.901}
+{"Length": 82.602, "Height": 19.41}
+{"Length": 95.442, "Height": 19.57}
+{"Length": 86.846, "Height": 18.977}
+{"Length": 91.325, "Height": 18.604}
+{"Length": 82.198, "Height": 18.936}
+{"Length": 93.408, "Height": 20.177}
+{"Length": 90.121, "Height": 18.312}
+{"Length": 91.88, "Height": 17.702}
+{"Length": 84.386, "Height": 18.084}
+{"Length": 90.545, "Height": 18.305}
+{"Length": 88.773, "Height": 17.163}
+{"Length": 89.546, "Height": 20.142}
+{"Length": 89.583, "Height": 18.487}
+{"Length": 91.538, "Height": 19.839}
+{"Length": 85.688, "Height": 20.226}
+{"Length": 96.492, "Height": 19.682}
+{"Length": 83.69, "Height": 17.682}
+{"Length": 82.741, "Height": 19.62}
+{"Length": 90.658, "Height": 18.962}
+{"Length": 88.386, "Height": 19.826}
+{"Length": 82.876, "Height": 20.868}
+{"Length": 88.721, "Height": 18.943}
+{"Length": 86.896, "Height": 19.908}
+{"Length": 83.113, "Height": 18.778}
+{"Length": 89.676, "Height": 19.372}
+{"Length": 95.937, "Height": 20.255}
+{"Length": 94.349, "Height": 19.661}
+{"Length": 102.437, "Height": 18.487}
+{"Length": 91.416, "Height": 20.361}
+{"Length": 84.615, "Height": 18.288}
+{"Length": 87.181, "Height": 18.645}
+{"Length": 91.548, "Height": 18.538}
+{"Length": 82.732, "Height": 18.43}
+{"Length": 83.219, "Height": 20.104}
+{"Length": 83.274, "Height": 18.25}
+{"Length": 89.124, "Height": 20.316}
+{"Length": 89.797, "Height": 18.465}
+{"Length": 84.681, "Height": 18.116}
+{"Length": 87.367, "Height": 17.82}
+{"Length": 96.212, "Height": 18.278}
+{"Length": 85.465, "Height": 18.849}
+{"Length": 85.408, "Height": 18.808}
+{"Length": 94.718, "Height": 18.02}
+{"Length": 88.437, "Height": 18.655}
+{"Length": 90.688, "Height": 18.025}
+{"Length": 95.461, "Height": 17.922}
+{"Length": 92.384, "Height": 16.991}
+{"Length": 90.479, "Height": 18.274}
+{"Length": 86.763, "Height": 20.311}
+{"Length": 84.356, "Height": 18.678}
+{"Length": 92.371, "Height": 17.594}
+{"Length": 84.197, "Height": 19.025}
+{"Length": 90.015, "Height": 19.89}
+{"Length": 85.341, "Height": 18.774}
+{"Length": 88, "Height": 18.803}
+{"Length": 92.091, "Height": 18.758}
+{"Length": 89.346, "Height": 18.067}
+{"Length": 86.06, "Height": 17.556}
+{"Length": 86.376, "Height": 20.519}
+{"Length": 96.4, "Height": 18.91}
+{"Length": 73.596, "Height": 19.001}
+{"Length": 91.111, "Height": 19.34}
+{"Length": 76.982, "Height": 19.077}
+{"Length": 86.637, "Height": 20.329}
+{"Length": 83.389, "Height": 19.45}
+{"Length": 86.469, "Height": 17.598}
+{"Length": 100.683, "Height": 18.328}
+{"Length": 97.671, "Height": 19.357}
+{"Length": 87.937, "Height": 18.869}
+{"Length": 81.741, "Height": 18.839}
+{"Length": 91.874, "Height": 17.705}
+{"Length": 92.019, "Height": 18.204}
+{"Length": 80.506, "Height": 18.066}
+{"Length": 90.929, "Height": 18.191}
+{"Length": 83.797, "Height": 20.558}
+{"Length": 84.13, "Height": 20.733}
+{"Length": 81.957, "Height": 19.135}
+{"Length": 88.094, "Height": 17.877}
+{"Length": 81.163, "Height": 20.285}
+{"Length": 78.049, "Height": 18.051}
+{"Length": 77.219, "Height": 18.661}
+{"Length": 88.336, "Height": 19.393}
+{"Length": 92.301, "Height": 20.672}
+{"Length": 84.084, "Height": 18.407}
+{"Length": 85.219, "Height": 20.49}
+{"Length": 91.535, "Height": 19.225}
+{"Length": 88.958, "Height": 17.88}
+{"Length": 96.198, "Height": 18.698}
+{"Length": 87.122, "Height": 18.763}
+{"Length": 86.188, "Height": 17.804}
+{"Length": 98.808, "Height": 20.478}
+{"Length": 87.35, "Height": 20.089}
+{"Length": 81.435, "Height": 20.198}
+{"Length": 91.299, "Height": 19.18}
+{"Length": 88.459, "Height": 17.495}
+{"Length": 90.24, "Height": 18.986}
+{"Length": 90.72, "Height": 19.544}
+{"Length": 96.104, "Height": 18.761}
+{"Length": 94.606, "Height": 19.657}
+{"Length": 87.511, "Height": 20.083}
+{"Length": 89.921, "Height": 20.007}
+{"Length": 91.875, "Height": 17.973}
+{"Length": 90.032, "Height": 20.085}
+{"Length": 87.866, "Height": 19.67}
+{"Length": 94.705, "Height": 19.141}
+{"Length": 91.725, "Height": 19.994}
+{"Length": 85.767, "Height": 18.756}
+{"Length": 84.316, "Height": 17.578}
+{"Length": 83.747, "Height": 19.103}
+{"Length": 81.3, "Height": 19.67}
+{"Length": 91.291, "Height": 18.168}
+{"Length": 86.218, "Height": 18.314}
+{"Length": 88.247, "Height": 17.666}
+{"Length": 82.573, "Height": 19.022}
+{"Length": 88.183, "Height": 19.336}
+{"Length": 74.882, "Height": 17.91}
+{"Length": 77.263, "Height": 17.492}
+{"Length": 93.462, "Height": 19.437}
+{"Length": 79.578, "Height": 17.977}
+{"Length": 85.468, "Height": 20.515}
+{"Length": 81.55, "Height": 20.983}
+{"Length": 84.698, "Height": 18.65}
+{"Length": 88.556, "Height": 18.802}
+{"Length": 96.441, "Height": 17.906}
+{"Length": 95.21, "Height": 20.826}
+{"Length": 89.039, "Height": 20.564}
+{"Length": 85.323, "Height": 19.604}
+{"Length": 89.261, "Height": 17}
+{"Length": 83.158, "Height": 17.797}
+{"Length": 88.26, "Height": 19.298}
+{"Length": 94.363, "Height": 18.32}
+{"Length": 85.662, "Height": 20.519}
+{"Length": 85.32, "Height": 20.895}
+{"Length": 92.158, "Height": 17.779}
+{"Length": 89.775, "Height": 18.483}
+{"Length": 90.26, "Height": 17.941}
+{"Length": 92.398, "Height": 18.715}
+{"Length": 87.458, "Height": 19.631}
+{"Length": 75.809, "Height": 18.385}
+{"Length": 91.678, "Height": 20.094}
+{"Length": 80.658, "Height": 18.066}
+{"Length": 89.886, "Height": 18.182}
+{"Length": 91.323, "Height": 18.94}
+{"Length": 87.725, "Height": 19.396}
+{"Length": 88.848, "Height": 19.535}
+{"Length": 93.996, "Height": 20.421}
+{"Length": 92.148, "Height": 17.958}
+{"Length": 94.5, "Height": 19.805}
+{"Length": 81.596, "Height": 20.05}
+{"Length": 83.322, "Height": 19.121}
+{"Length": 89.837, "Height": 16.856}
+{"Length": 87.948, "Height": 20.146}
+{"Length": 85.049, "Height": 22.165}
+{"Length": 92.626, "Height": 20.153}
+{"Length": 87.53, "Height": 19.897}
+{"Length": 92.895, "Height": 19.004}
+{"Length": 83.507, "Height": 21.423}
+{"Length": 89.187, "Height": 19.114}
+{"Length": 84.461, "Height": 19.067}
+{"Length": 81.475, "Height": 20.193}
+{"Length": 92.137, "Height": 20.087}
+{"Length": 90.911, "Height": 19.18}
+{"Length": 81.213, "Height": 17.847}
+{"Length": 89.594, "Height": 19.51}
+{"Length": 86.686, "Height": 18.854}
+{"Length": 82.08, "Height": 18.174}
+{"Length": 88.936, "Height": 19.094}
+{"Length": 90.536, "Height": 19.537}
+{"Length": 88.278, "Height": 19.166}
+{"Length": 94.898, "Height": 18.824}
+{"Length": 92.453, "Height": 20.331}
+{"Length": 80.614, "Height": 19}
+{"Length": 98.045, "Height": 17.532}
+{"Length": 92.526, "Height": 17.575}
+{"Length": 91.149, "Height": 18.352}
+{"Length": 94.403, "Height": 18.205}
+{"Length": 81.018, "Height": 18.724}
+{"Length": 88.389, "Height": 18.995}
+{"Length": 79.363, "Height": 19.561}
+{"Length": 91.857, "Height": 20.133}
+{"Length": 88.782, "Height": 19.502}
+{"Length": 85.438, "Height": 19.402}
+{"Length": 89.299, "Height": 16.936}
+{"Length": 94.008, "Height": 18.978}
+{"Length": 90.177, "Height": 19.904}
+{"Length": 89.619, "Height": 17.773}
+{"Length": 93.562, "Height": 19.548}
+{"Length": 99.938, "Height": 17.215}
+{"Length": 91.691, "Height": 18.445}
+{"Length": 83.496, "Height": 17.411}
+{"Length": 91.79, "Height": 17.773}
+{"Length": 94.536, "Height": 18.346}
+{"Length": 90.234, "Height": 19.106}
+{"Length": 83.744, "Height": 19.441}
+{"Length": 82.76, "Height": 19.557}
+{"Length": 88.02, "Height": 19.393}
+{"Length": 80.902, "Height": 17.168}
+{"Length": 90.477, "Height": 18.561}
+{"Length": 92.821, "Height": 16.472}
+{"Length": 90.574, "Height": 19.131}
+{"Length": 82.446, "Height": 17.805}
+{"Length": 86.538, "Height": 17.678}
+{"Length": 97.62, "Height": 19.275}
+{"Length": 76.196, "Height": 18.122}
+{"Length": 85.873, "Height": 18.138}
+{"Length": 87.001, "Height": 19.958}
+{"Length": 93.406, "Height": 18.924}
+{"Length": 85.096, "Height": 18.687}
+{"Length": 86.941, "Height": 19.913}
+{"Length": 85.938, "Height": 17.249}
+{"Length": 89.977, "Height": 20.319}
+{"Length": 81.314, "Height": 18.864}
+{"Length": 99.557, "Height": 21.354}
+{"Length": 86.248, "Height": 18.24}
+{"Length": 86.394, "Height": 17.779}
+{"Length": 85.855, "Height": 17.73}
+{"Length": 86.852, "Height": 18.213}
+{"Length": 87.72, "Height": 19.376}
+{"Length": 86.14, "Height": 17.621}
+{"Length": 90.371, "Height": 18.54}
+{"Length": 87.691, "Height": 19.424}
+{"Length": 77.362, "Height": 18.995}
+{"Length": 82.989, "Height": 18.691}
+{"Length": 85.411, "Height": 19.312}
+{"Length": 99.051, "Height": 18.014}
+{"Length": 89.625, "Height": 19.374}
+{"Length": 81.616, "Height": 18.377}
+{"Length": 98.393, "Height": 19.155}
+{"Length": 90.755, "Height": 20.771}
+{"Length": 98.052, "Height": 17.603}
+{"Length": 86.562, "Height": 18.136}
+{"Length": 90.408, "Height": 18.236}
+{"Length": 81.107, "Height": 18.748}
+{"Length": 92.615, "Height": 17.745}
+{"Length": 83.902, "Height": 18.271}
+{"Length": 84.753, "Height": 19.191}
+{"Length": 95.446, "Height": 17.88}
+{"Length": 83.294, "Height": 19.348}
+{"Length": 82.13, "Height": 18.289}
+{"Length": 91.966, "Height": 19.144}
+{"Length": 84.02, "Height": 18.731}
+{"Length": 92.947, "Height": 18.405}
+{"Length": 98.536, "Height": 17.098}
+{"Length": 97.137, "Height": 17.183}
+{"Length": 89.964, "Height": 20.1}
+{"Length": 87.522, "Height": 20.211}
+{"Length": 91.702, "Height": 19.184}
+{"Length": 93.677, "Height": 17.879}
+{"Length": 91.967, "Height": 19.857}
+{"Length": 91.784, "Height": 19.256}
+{"Length": 86.434, "Height": 19.959}
+{"Length": 75.536, "Height": 19.951}
+{"Length": 87.625, "Height": 19.01}
+{"Length": 83.363, "Height": 18.722}
+{"Length": 94.174, "Height": 18.894}
+{"Length": 88.917, "Height": 19.649}
+{"Length": 92.192, "Height": 20.372}
+{"Length": 91.353, "Height": 18.662}
+{"Length": 81.18, "Height": 19.285}
+{"Length": 91.326, "Height": 16.927}
+{"Length": 91.631, "Height": 19.532}
+{"Length": 89.469, "Height": 20.609}
+{"Length": 83.326, "Height": 19.884}
+{"Length": 94.242, "Height": 20.482}
+{"Length": 79.551, "Height": 20.397}
+{"Length": 95.412, "Height": 18.582}
+{"Length": 93.456, "Height": 18.271}
+{"Length": 86.422, "Height": 19.822}
+{"Length": 97.354, "Height": 18.71}
+{"Length": 89.384, "Height": 18.827}
+{"Length": 84.838, "Height": 19.198}
+{"Length": 92.592, "Height": 19.031}
+{"Length": 89.053, "Height": 19.258}
+{"Length": 78.429, "Height": 19.188}
+{"Length": 86.539, "Height": 19.177}
+{"Length": 79.818, "Height": 19.547}
+{"Length": 84.944, "Height": 17.975}
+{"Length": 85.733, "Height": 17.236}
+{"Length": 94.788, "Height": 19.956}
+{"Length": 80.635, "Height": 18.206}
+{"Length": 88.515, "Height": 19.465}
+{"Length": 88.991, "Height": 17.852}
+{"Length": 85.802, "Height": 19.839}
+{"Length": 84.279, "Height": 17.815}
+{"Length": 91.71, "Height": 19.845}
+{"Length": 90.376, "Height": 17.856}
+{"Length": 89.216, "Height": 19.504}
+{"Length": 89.324, "Height": 20.572}
+{"Length": 96.217, "Height": 18.881}
+{"Length": 92.935, "Height": 19.468}
+{"Length": 86.265, "Height": 20.186}
+{"Length": 87.26, "Height": 18.773}
+{"Length": 86.629, "Height": 17.765}
+{"Length": 94.162, "Height": 19.923}
+{"Length": 85.963, "Height": 21.264}
+{"Length": 82.542, "Height": 18.892}
+{"Length": 90.929, "Height": 17.453}
+{"Length": 92.856, "Height": 20.474}
+{"Length": 91.419, "Height": 18.199}
+{"Length": 93.228, "Height": 19.815}
+{"Length": 88.822, "Height": 19.644}
+{"Length": 79.313, "Height": 19.41}
+{"Length": 89.798, "Height": 18.675}
+{"Length": 93.52, "Height": 17.039}
+{"Length": 91.575, "Height": 16.696}
+{"Length": 84.586, "Height": 17.781}
+{"Length": 91.96, "Height": 19.027}
+{"Length": 94.613, "Height": 20.448}
+{"Length": 98.028, "Height": 18.581}
+{"Length": 94.428, "Height": 18.502}
+{"Length": 88.585, "Height": 20.492}
+{"Length": 92.675, "Height": 18.818}
+{"Length": 94.665, "Height": 17.569}
+{"Length": 92.908, "Height": 19.625}
+{"Length": 91.281, "Height": 18.626}
+{"Length": 93.035, "Height": 19.49}
+{"Length": 79.946, "Height": 19.425}
+{"Length": 86.721, "Height": 18.954}
+{"Length": 97.541, "Height": 20.138}
+{"Length": 91.508, "Height": 18.4}
+{"Length": 84.572, "Height": 18.617}
+{"Length": 86.312, "Height": 18.958}
+{"Length": 82.893, "Height": 17.876}
+{"Length": 96.253, "Height": 20.27}
+{"Length": 79.241, "Height": 18.8}
+{"Length": 97.017, "Height": 18.757}
+{"Length": 81.012, "Height": 19.797}
+{"Length": 95.623, "Height": 19.033}
+{"Length": 99.225, "Height": 20.025}
+{"Length": 90.249, "Height": 19.205}
+{"Length": 88.741, "Height": 18.477}
+{"Length": 86.463, "Height": 18.721}
+{"Length": 94.879, "Height": 20.937}
+{"Length": 95.761, "Height": 19.367}
+{"Length": 87.792, "Height": 20.094}
+{"Length": 83.005, "Height": 19.207}
+{"Length": 93.87, "Height": 19.028}
+{"Length": 88.647, "Height": 18.444}
+{"Length": 87.598, "Height": 17.925}
+{"Length": 89.225, "Height": 18.896}
+{"Length": 85.664, "Height": 19.022}
+{"Length": 88.249, "Height": 20.225}
+{"Length": 103.461, "Height": 19.747}
+{"Length": 93.009, "Height": 17.922}
+{"Length": 85.671, "Height": 18.657}
+{"Length": 90.504, "Height": 19.514}
+{"Length": 82.33, "Height": 20.223}
+{"Length": 81.514, "Height": 18.9}
+{"Length": 83.543, "Height": 19.734}
+{"Length": 84.712, "Height": 18.706}
+{"Length": 86.658, "Height": 20.647}
+{"Length": 78.853, "Height": 18.979}
+{"Length": 89.142, "Height": 20.668}
+{"Length": 91.498, "Height": 19}
+{"Length": 94.433, "Height": 19.568}
+{"Length": 81.212, "Height": 19.53}
+{"Length": 88.332, "Height": 19.358}
+{"Length": 90.811, "Height": 18.668}
+{"Length": 88.902, "Height": 18.294}
+{"Length": 78.579, "Height": 18.843}
+{"Length": 99.713, "Height": 19.575}
+{"Length": 92.062, "Height": 20.19}
+{"Length": 87.824, "Height": 19.679}
+{"Length": 83.566, "Height": 19.46}
+{"Length": 90.345, "Height": 18.133}
+{"Length": 96.504, "Height": 18.426}
+{"Length": 96.356, "Height": 19.848}
+{"Length": 88.887, "Height": 17.366}
+{"Length": 85.481, "Height": 19.433}
+{"Length": 88.525, "Height": 19.537}
+{"Length": 82.104, "Height": 19.956}
+{"Length": 92.184, "Height": 20.324}
+{"Length": 89.306, "Height": 20.348}
+{"Length": 83.095, "Height": 18.737}
+{"Length": 99.163, "Height": 17.808}
+{"Length": 85.074, "Height": 17.857}
+{"Length": 83.468, "Height": 20.023}
+{"Length": 83.518, "Height": 19.01}
+{"Length": 85.355, "Height": 18.784}
+{"Length": 89.296, "Height": 18.496}
+{"Length": 86.898, "Height": 17.978}
+{"Length": 95.702, "Height": 21.727}
+{"Length": 81.774, "Height": 19.013}
+{"Length": 94.268, "Height": 19.564}
+{"Length": 86.783, "Height": 18.717}
+{"Length": 84.886, "Height": 16.487}
+{"Length": 82.929, "Height": 20.172}
+{"Length": 87.74, "Height": 19.46}
+{"Length": 83.511, "Height": 19.468}
+{"Length": 83.346, "Height": 18.958}
+{"Length": 94.259, "Height": 19.578}
+{"Length": 97, "Height": 19.596}
+{"Length": 84.858, "Height": 18.143}
+{"Length": 87.044, "Height": 18.391}
+{"Length": 81.786, "Height": 20.142}
+{"Length": 87.031, "Height": 18.931}
+{"Length": 90.147, "Height": 18.152}
+{"Length": 88.717, "Height": 19.912}
+{"Length": 86.725, "Height": 18.314}
+{"Length": 84.397, "Height": 18.665}
+{"Length": 88.728, "Height": 18.078}
+{"Length": 78.358, "Height": 18.919}
+{"Length": 84.068, "Height": 19.177}
+{"Length": 91.951, "Height": 19.511}
+{"Length": 84.275, "Height": 17.504}
+{"Length": 75.487, "Height": 19.037}
+{"Length": 80.198, "Height": 17.524}
+{"Length": 95.634, "Height": 19.417}
+{"Length": 97.329, "Height": 20.541}
+{"Length": 78.878, "Height": 19.077}
+{"Length": 90.82, "Height": 18.839}
+{"Length": 86.192, "Height": 19.569}
+{"Length": 85.078, "Height": 20.022}
+{"Length": 91.045, "Height": 18.714}
+{"Length": 90.639, "Height": 18.25}
+{"Length": 86.276, "Height": 18.049}
+{"Length": 84.629, "Height": 18.423}
+{"Length": 86.493, "Height": 19.482}
+{"Length": 85.162, "Height": 18.158}
+{"Length": 80.436, "Height": 19.335}
+{"Length": 93.937, "Height": 18.591}
+{"Length": 81.621, "Height": 17.822}
+{"Length": 84.625, "Height": 19.485}
+{"Length": 85.889, "Height": 19.491}
+{"Length": 81.715, "Height": 21.219}
+{"Length": 84.006, "Height": 18.763}
+{"Length": 93.689, "Height": 19.726}
+{"Length": 91.683, "Height": 19.285}
+{"Length": 95.926, "Height": 18.025}
+{"Length": 93.514, "Height": 19.903}
+{"Length": 83.087, "Height": 18.8}
+{"Length": 92.163, "Height": 19.141}
+{"Length": 80.154, "Height": 18.541}
+{"Length": 94.588, "Height": 19.76}
+{"Length": 95.671, "Height": 19.675}
+{"Length": 87.879, "Height": 18.956}
+{"Length": 84.952, "Height": 19.713}
+{"Length": 88.558, "Height": 18.705}
+{"Length": 89.913, "Height": 18.889}
+{"Length": 83.246, "Height": 18.884}
+{"Length": 94.438, "Height": 18.212}
+{"Length": 92.29, "Height": 18.541}
+{"Length": 92.914, "Height": 19.623}
+{"Length": 86.423, "Height": 18.586}
+{"Length": 88.162, "Height": 18.639}
+{"Length": 91.955, "Height": 18.783}
+{"Length": 89.697, "Height": 16.114}
+{"Length": 92.723, "Height": 18.948}
+{"Length": 90.844, "Height": 18.734}
+{"Length": 89.292, "Height": 19.379}
+{"Length": 86.86, "Height": 20.393}
+{"Length": 89.552, "Height": 21.366}
+{"Length": 79.961, "Height": 19.108}
+{"Length": 83.513, "Height": 20.973}
+{"Length": 92.278, "Height": 18.383}
+{"Length": 78.19, "Height": 18.161}
+{"Length": 92.744, "Height": 18.764}
+{"Length": 88.52, "Height": 21.112}
+{"Length": 82.779, "Height": 19.02}
+{"Length": 91.548, "Height": 18.936}
+{"Length": 88.876, "Height": 18.479}
+{"Length": 82.708, "Height": 19.273}
+{"Length": 84.597, "Height": 18.654}
+{"Length": 82.927, "Height": 19.063}
+{"Length": 99.683, "Height": 19.511}
+{"Length": 82.143, "Height": 19.117}
+{"Length": 77.293, "Height": 17.716}

@@ -19,7 +19,7 @@ class FishEventsProducer {
                 val fish = klaxon.parse<Fish>(event)
                 val dataJSON = klaxon.toJsonString(fish)
 
-                kafkaProducer.send(ProducerRecord("machine-data", "machine_1", dataJSON))
+                kafkaProducer.send(ProducerRecord("machine-measurement", "id", dataJSON))
                 logger.info("Event produced with value: $dataJSON")
                 Thread.sleep(2000)
             }

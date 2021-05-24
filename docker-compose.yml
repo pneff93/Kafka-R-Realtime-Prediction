@@ -29,11 +29,18 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
 
-  kafkaProducer:
-    image: kafkaproducerfish:0.1.3
+  kafkaProducerMeasurment:
+    image: kafkaproducer-measurement:0.1.0
     build: ./KafkaProducer
-    container_name: kafkaProducer
+    container_name: kafkaProducerMeasurement
     depends_on:
       - broker
+
+  kafkaStreams:
+    image: kafkastreams:1.0.0
+    build: ./KafkaStreams
+    container_name: kafkaStreams
+    depends_on:
+      - kafkaProducerMeasurment
 
 
