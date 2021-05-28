@@ -43,4 +43,15 @@ services:
     depends_on:
       - kafkaProducerMeasurment
 
+  rstudio:
+    image: rstudio/plumber:0.0.12
+    build: .
+    container_name: rstudio
+    ports:
+      - 8787:8787
+      - 80:80
+    environment:
+      USER: user
+      PASSWORD: password
+
 

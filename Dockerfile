@@ -1,23 +1,20 @@
-FROM trestletech/plumber
+# Base image, see https://hub.docker.com/r/rocker/rstudio
+FROM rocker/rstudio:4.0.3
 
-# Install dependencies
-RUN apt-get update --allow-releaseinfo-change && apt-get install -y \
-    liblapack-dev \
-    libpq-dev
+# Install Plumber
+RUN apt-get -y update && apt-get install -y \
+   r-cran-rjava \
+   && apt-get clean \
+   && rm -rf /var/lib/apt/lists/
 
-# # Install R packages
-# RUN R -e "install.packages(c('tidyr', 'dplyr', 'magrittr', 'httr', 'jsonlite'), \
-# repos = 'http://cran.us.r-project.org')"
+RUN R -e "install.packages(c('plumber', 'jsonlite'))"
 
-# Add API
-COPY ./R/r2.R /r2.R
+COPY ./R/Predictor.R /home
+COPY ./R/main.R /home
+COPY ./R/model.RData /home
 
-# Make port available
-EXPOSE 8000
 
-# Entrypoint
-ENTRYPOINT ["R", "-e", \
-"widelong <- plumber::plumb('r2.R'); \
-widelong$run(host = '0.0.0.0', port= 8000)"]
+# open port 80 to traffic
+EXPOSE 80
 
-CMD ["/r2.R"]
+ENTRYPOINT ["Rscript", "/home/main.R"]
