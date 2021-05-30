@@ -12,7 +12,7 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
 
     private val logger = logger(javaClass.name)
 
-    private fun createTopology(): Topology {
+    fun createTopology(): Topology {
 
         val processor = StreamsBuilder()
 
