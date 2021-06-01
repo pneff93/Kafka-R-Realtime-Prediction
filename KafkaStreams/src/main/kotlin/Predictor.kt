@@ -14,9 +14,8 @@ class Predictor(private val properties: Properties) {
 
     fun requestWeight(fish: Fish): Fish {
 
-        Klaxon().toJsonString(mapOf("length" to fish.Length, "height" to fish.Height))
-        val url: Url = properties.getProperty("Model_URL") as Url
-        val response: Any? = request(fish, url)
+        val url: String = properties.getProperty("Model_URL")
+        val response: Any? = request(fish, Url(url))
 
         if(response != null){
             fish.Predicted_Weight = response.toString().toDouble()

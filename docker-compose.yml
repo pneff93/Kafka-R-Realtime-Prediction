@@ -37,19 +37,19 @@ services:
       - broker
 
   kafkaStreams:
-    image: kafkastreams:0.0.4
+    image: kafkastreams:0.0.6
     build: ./KafkaStreams
     container_name: kafkaStreams
     depends_on:
       - kafkaProducerMeasurment
 
   rstudio:
-    image: rstudio/plumber:0.0.16
-    build: .
+    image: rstudio/plumber:0.0.17
+    build: ./R
     container_name: rstudio
     ports:
       - 8787:8787
-      - 80:80
+      - 8000:8000
     environment:
       USER: user
       PASSWORD: password

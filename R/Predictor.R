@@ -2,6 +2,7 @@
 
 #' @param length
 #' @param height
+#' @serializer unboxedJSON
 #' @get /prediction
 predictWeight <- function(length, height){
   
