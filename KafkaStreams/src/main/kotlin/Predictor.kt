@@ -1,4 +1,3 @@
-import com.beust.klaxon.Klaxon
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.request.*
@@ -17,7 +16,8 @@ class Predictor(private val properties: Properties) {
         val url: String = properties.getProperty("Model_URL")
         val response: Any? = request(fish, Url(url))
 
-        if(response != null){
+        if (response != null) {
+            logger.info("Weight: $response predicted for fish: $fish")
             fish.Predicted_Weight = response.toString().toDouble()
         }
         return fish
@@ -39,7 +39,7 @@ class Predictor(private val properties: Properties) {
                 client.close()
                 return@runBlocking response.readText()
 
-            } catch (e: Exception){
+            } catch (e: Exception) {
                 logger.error("Could not receive a weight for payload: $fish to url: $url")
                 return@runBlocking null
             }
