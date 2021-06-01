@@ -20,7 +20,8 @@ class PredictorTest : StringSpec() {
                 HttpRequest.request()
                     .withMethod("GET")
                     .withPath("/prediction")
-                    .withBody("""{"length": 1.0, "height": 1.0}""")
+                    .withQueryStringParameter("length", "1.0")
+                    .withQueryStringParameter("height", "1.0")
             ).respond(
                 HttpResponse.response()
                     .withBody("10")

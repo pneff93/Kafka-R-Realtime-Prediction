@@ -3,11 +3,10 @@
 #' @param length
 #' @param height
 #' @get /prediction
-precictWeight <- function(length, height){
-
+predictWeight <- function(length, height){
+  
   tryCatch(
     {
-
       length <- as.numeric(length)
       height <- as.numeric(height)
       

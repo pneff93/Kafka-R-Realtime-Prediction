@@ -14,9 +14,9 @@ class Predictor(private val properties: Properties) {
 
     fun requestWeight(fish: Fish): Fish {
 
-        val payload: String = Klaxon().toJsonString(mapOf("length" to fish.Length, "height" to fish.Height))
-        val url: String = properties.getProperty("Model_URL")
-        val response: Any? = request(payload, Url(url))
+        Klaxon().toJsonString(mapOf("length" to fish.Length, "height" to fish.Height))
+        val url: Url = properties.getProperty("Model_URL") as Url
+        val response: Any? = request(fish, url)
 
         if(response != null){
             fish.Predicted_Weight = response.toString().toDouble()
@@ -25,7 +25,7 @@ class Predictor(private val properties: Properties) {
     }
 
 
-    private fun request(payload: String, url: Url): Any? =
+    private fun request(fish: Fish, url: Url): Any? =
 
         runBlocking {
 
@@ -34,13 +34,14 @@ class Predictor(private val properties: Properties) {
             try {
                 val response: HttpResponse = client.request(url) {
                     method = HttpMethod.Get
-                    body = payload
+                    parameter("length", fish.Length)
+                    parameter("height", fish.Height)
                 }
                 client.close()
                 return@runBlocking response.readText()
 
             } catch (e: Exception){
-                logger.error("Could not receive a weight for payload: $payload")
+                logger.error("Could not receive a weight for payload: $fish to url: $url")
                 return@runBlocking null
             }
         }

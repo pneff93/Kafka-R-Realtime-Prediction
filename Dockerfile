@@ -14,7 +14,7 @@ COPY ./R/main.R /home
 COPY ./R/model.RData /home
 
 
-# open port 80 to traffic
-EXPOSE 80
+# open port 8000 to traffic
+EXPOSE 8000
 
 ENTRYPOINT ["Rscript", "/home/main.R"]
