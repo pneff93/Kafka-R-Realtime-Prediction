@@ -1,0 +1,9 @@
+CREATE STREAM PREDICTED_WEIGHT(
+	"id" VARCHAR KEY,
+	"Height" DOUBLE,
+	"Length" DOUBLE,
+	"Predicted_Weight" DOUBLE,
+	"Timestamp" VARCHAR
+	)
+WITH(Kafka_Topic = 'weight-prediction', VALUE_FORMAT = 'JSON');
+	
