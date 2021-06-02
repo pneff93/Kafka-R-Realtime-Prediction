@@ -14,7 +14,7 @@ predictWeight <- function(length, height){
       load("/home/model.RData")
       
       prediction <- predict(lm, data.frame(length = length, height = height))
-      return(prediction)
+      return(list(weight = prediction, modelTime = lm$time))
     },
     error = function(cond){
       

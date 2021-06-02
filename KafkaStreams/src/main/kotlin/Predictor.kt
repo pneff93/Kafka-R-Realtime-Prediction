@@ -1,3 +1,4 @@
+import com.beust.klaxon.Klaxon
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.request.*
@@ -14,11 +15,13 @@ class Predictor(private val properties: Properties) {
     fun requestWeight(fish: Fish): Fish {
 
         val url: String = properties.getProperty("Model_URL")
-        val response: Any? = request(fish, Url(url))
 
-        if (response != null) {
-            logger.info("Weight: $response predicted for fish: $fish")
-            fish.Predicted_Weight = response.toString().toDouble()
+        val response: Any? = request(fish, Url(url))
+        val prediction = Klaxon().parse<Prediction>(response.toString())
+
+        if (prediction != null) {
+            logger.info("Prediction: ${prediction.weight} successful with model: ${prediction.modelTime} and parameters length: ${fish.Length} and height ${fish.Height}")
+            fish.Prediction = prediction
         }
         return fish
     }

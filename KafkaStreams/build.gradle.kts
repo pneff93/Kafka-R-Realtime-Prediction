@@ -30,7 +30,6 @@ dependencies {
     testImplementation("io.kotest:kotest-assertions-core:4.6.0")
     testImplementation("org.apache.kafka:kafka-streams-test-utils:2.7.0")
     testImplementation("io.mockk:mockk:1.11.0")
-    testImplementation("io.kotest:kotest-extensions-mockserver:4.4.3")
 }
 
 val fatJar = task("fatJar", type = Jar::class) {

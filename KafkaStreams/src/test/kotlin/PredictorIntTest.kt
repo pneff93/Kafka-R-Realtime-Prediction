@@ -16,13 +16,13 @@ class PredictorIntTest: StringSpec() {
 
             val predictor = Predictor(properties)
 
-            val request = Fish(1.0, 1.0, "now")
+            val request = Fish(70.0, 18.0, "now")
             val response = predictor.requestWeight(request)
 
             response.Length shouldBe request.Length
             response.Height shouldBe request.Height
             response.Timestamp shouldBe request.Timestamp
-            response.Predicted_Weight shouldNotBe null
+            response.Prediction shouldNotBe null
         }
     }
 }
