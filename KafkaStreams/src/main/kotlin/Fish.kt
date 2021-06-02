@@ -1,4 +1,6 @@
 data class Fish(
+    val Fish_Id: String,
+    val Species: String,
     val Length: Double,
     val Height: Double,
     val Timestamp: String,
@@ -6,6 +8,6 @@ data class Fish(
 )
 
 data class Prediction(
-    val weight: Double,
-    val modelTime: String
+    val Weight: Double,
+    val ModelTime: String
 )

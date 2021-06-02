@@ -9,8 +9,8 @@ import java.util.*
 
 class StreamProcessorTest : StringSpec() {
 
-    private val input = Fish(1.0, 1.0, "today", null)
-    private val expectedOutput = Fish(1.0, 1.0, "today", Prediction(2.0, "yesterday"))
+    private val input = Fish("id", "salmon", 1.0, 1.0, "today", null)
+    private val expectedOutput = Fish("id", "salmon", 1.0, 1.0, "today", Prediction(2.0, "yesterday"))
 
     private val properties = Properties()
 

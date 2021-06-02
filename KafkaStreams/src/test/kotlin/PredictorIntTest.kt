@@ -16,7 +16,7 @@ class PredictorIntTest: StringSpec() {
 
             val predictor = Predictor(properties)
 
-            val request = Fish(70.0, 18.0, "now")
+            val request = Fish("id", "salmon", 70.0, 18.0, "now")
             val response = predictor.requestWeight(request)
 
             response.Length shouldBe request.Length

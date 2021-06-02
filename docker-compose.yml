@@ -53,19 +53,19 @@ services:
     entrypoint: /bin/sh
     tty: true
 
-  kafkaProducerMeasurment:
-    image: kafkaproducer-measurement:0.1.0
+  kafkaProducer:
+    image: kafkaproducer:0.1.0
     build: ./KafkaProducer
-    container_name: kafkaProducerMeasurement
+    container_name: kafkaProducer
     depends_on:
       - broker
 
   kafkaStreams:
-    image: kafkastreams:0.0.7
+    image: kafkastreams:0.0.8
     build: ./KafkaStreams
     container_name: kafkaStreams
     depends_on:
-      - kafkaProducerMeasurment
+      - kafkaProducer
 
   rstudio:
     image: rstudio/plumber:0.0.17

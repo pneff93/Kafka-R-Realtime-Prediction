@@ -20,7 +20,7 @@ class Predictor(private val properties: Properties) {
         val prediction = Klaxon().parse<Prediction>(response.toString())
 
         if (prediction != null) {
-            logger.info("Prediction: ${prediction.weight} successful with model: ${prediction.modelTime} and parameters length: ${fish.Length} and height ${fish.Height}")
+            logger.info("Prediction: ${prediction.Weight} successful with model: ${prediction.ModelTime} and parameters length: ${fish.Length} and height ${fish.Height}")
             fish.Prediction = prediction
         }
         return fish
