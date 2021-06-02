@@ -54,7 +54,7 @@ services:
     tty: true
 
   kafkaProducer:
-    image: kafkaproducer:0.1.0
+    image: kafkaproducer:0.0.2
     build: ./KafkaProducer
     container_name: kafkaProducer
     depends_on:
@@ -68,7 +68,7 @@ services:
       - kafkaProducer
 
   rstudio:
-    image: rstudio/plumber:0.0.17
+    image: rstudio/plumber:0.0.18
     build: ./R
     container_name: rstudio
     ports:

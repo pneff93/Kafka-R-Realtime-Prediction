@@ -14,8 +14,8 @@ fun main() {
         while (true) {
 
             val threadMeasurement = measurementProducer.produceEvents(properties, measurement)
-            threadMeasurement.join()
             val threadWeight = weightProducer.produceEvents(properties, weight)
+            threadMeasurement.join()
             threadWeight.join()
         }
     }
