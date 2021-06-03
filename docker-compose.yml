@@ -54,7 +54,7 @@ services:
     tty: true
 
   kafkaProducer:
-    image: kafkaproducer:0.0.2
+    image: kafkaproducer:0.0.3
     build: ./KafkaProducer
     container_name: kafkaProducer
     depends_on:
