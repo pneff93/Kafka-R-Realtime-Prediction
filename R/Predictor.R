@@ -32,30 +32,28 @@ predictWeight <- function(length, height){
 train <- function(){
   library(mongolite)
   library(dplyr)
-  connection <- mongo(collection = "TrainingData",
-                      db = "Weight",
-                      url = "mongodb://user:password@localhost:27017")
   
-  
-  
-  dataAggr <- connection$aggregate('[
-                    {"$sort": {"_id": -1}},
-                    {"$limit": 50}
+  tryCatch({
+    connection <- mongo(collection = "TrainingData",
+                        db = "Weight",
+                        url = "mongodb://user:password@mongo:27017")
+    
+    dataAggr <- connection$aggregate('[
+                {"$sort": {"_id": -1}},
+                {"$limit": 50}
                                    ]')
   
+    data <- dataAggr %>% select(length = Length, height = Height, weight = ActualWeight)
   
-  data <- dataAggr %>% select(length = Length, height = Height, weight = ActualWeight)
+    lm <- lm(weight ~ length + height , data = data)
+    lm$time <- Sys.time()
   
-  
-  lm <- lm(weight ~ length + height , data = data)
-  lm$time <- Sys.time()
-  
-  save(data = lm, file = "/home/model2.RData")
-  message("New model saved")
-
-  
-  
-  
-  
+    save(data = lm, file = "/home/model.RData")
+    message("New model saved")
+  },
+  error = function(cond){
+    message ("Retraining did not work")
+    }
+  )
 }
 

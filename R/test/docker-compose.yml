@@ -1,0 +1,29 @@
+version: '2'
+services:
+
+  model:
+    image: model:0.0.10
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    container_name: model
+    ports:
+      - 8000:8000
+
+  mongo:
+    image: mongo:4.4.5
+    hostname: mongo
+    container_name: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+  mongo-seed:
+    image: seed:0.0.3
+    build:
+      context: .
+      dockerfile: MongoDBDockerfile
+    links:
+      - mongo
