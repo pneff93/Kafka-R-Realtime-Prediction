@@ -40,7 +40,7 @@ train <- function(){
     
     dataAggr <- connection$aggregate('[
                 {"$sort": {"_id": -1}},
-                {"$limit": 50}
+                {"$limit": 30}
                                    ]')
   
     data <- dataAggr %>% select(length = Length, height = Height, weight = ActualWeight)

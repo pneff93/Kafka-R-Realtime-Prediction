@@ -4,15 +4,15 @@ library(jsonlite)
 library(readr)
 
 
-# Salmon first shift: 3 min
+# Salmon first shift: 2 min
 set.seed(101)
 
-length <- round(rnorm(90, 88, 5), 3)
-height <- round(rnorm(90, 19, 1), 3)
-error <- round(rnorm(90, 0, 0.1), 3)
+length <- round(rnorm(60, 88, 5), 3)
+height <- round(rnorm(60, 19, 1), 3)
+error <- round(rnorm(60, 0, 0.1), 3)
 weight <- 0.05 * length + 0.01 * height + error
 
-data1 <- data.frame(species = "salmon", id = seq(1, 90), length = length, height = height, weight = weight)
+data1 <- data.frame(species = "salmon", id = seq(1, 60), length = length, height = height, weight = weight)
 
 
 # Walleye second shift : 4 min
@@ -23,7 +23,7 @@ height <- round(rnorm(120, 17, 2), 3)
 error <- round(rnorm(120, 0, 0.1), 3)
 weight <- 0.02 * length + 0.04 * height + error
 
-data2 <- data.frame(species = "walleye", id = seq(91, 210), length = length, height = height, weight = weight)
+data2 <- data.frame(species = "walleye", id = seq(61, 180), length = length, height = height, weight = weight)
 
 
 # Salmon third shift : 4 min
@@ -34,7 +34,7 @@ height <- round(rnorm(120, 19, 1), 3)
 error <- round(rnorm(120, 0, 0.1), 3)
 weight <- 0.05 * length + 0.01 * height + error
 
-data3 <- data.frame(species = "salmon", id = seq(211, 330), length = length, height = height, weight = weight)
+data3 <- data.frame(species = "salmon", id = seq(181, 300), length = length, height = height, weight = weight)
 
 
 

@@ -50,8 +50,3 @@ AS SELECT
     GROUP BY "Key"
     HAVING AVG("Diff") > 0.1
     EMIT FINAL;
-
-
-
-
-
