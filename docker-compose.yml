@@ -58,6 +58,7 @@ services:
       - -c
       - |
         confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:1.5.0
+        confluent-hub install --no-prompt confluentinc/kafka-connect-http:1.4.0
         /etc/confluent/docker/run &
         sleep infinity
 
@@ -110,14 +111,8 @@ services:
       - kafkaProducer
 
   rstudio:
-    image: rstudio/plumber:0.0.18
+    image: rstudio/plumber:0.0.19
     build: ./R
     container_name: rstudio
     ports:
-      - 8787:8787
       - 8000:8000
-    environment:
-      USER: user
-      PASSWORD: password
-
-

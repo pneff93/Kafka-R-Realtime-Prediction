@@ -3,7 +3,6 @@ services:
 
   model:
     image: model:0.0.1
-    build: .
     container_name: model
     ports:
       - 8000:8000
