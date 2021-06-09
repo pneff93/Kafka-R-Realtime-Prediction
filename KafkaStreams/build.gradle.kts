@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("stdlib"))
     implementation("org.apache.kafka:kafka-streams:2.8.0")
     implementation("com.beust:klaxon:5.5")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.10")
@@ -27,7 +27,7 @@ dependencies {
 
     testImplementation("io.kotest:kotest-runner-junit5:4.6.0")
     testImplementation("io.kotest:kotest-assertions-core:4.6.0")
-    testImplementation("org.apache.kafka:kafka-streams-test-utils:2.7.0")
+    testImplementation("org.apache.kafka:kafka-streams-test-utils:2.8.0")
     testImplementation("io.mockk:mockk:1.11.0")
 }
 

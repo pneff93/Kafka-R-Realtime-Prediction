@@ -4,7 +4,9 @@ import io.mockk.every
 import io.mockk.mockkClass
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.kafka.common.serialization.StringSerializer
-import org.apache.kafka.streams.*
+import org.apache.kafka.streams.KeyValue
+import org.apache.kafka.streams.StreamsConfig
+import org.apache.kafka.streams.TopologyTestDriver
 import java.util.*
 
 class StreamProcessorTest : StringSpec() {
@@ -34,13 +36,13 @@ class StreamProcessorTest : StringSpec() {
             val testDriver = TopologyTestDriver(topology, mockProperties.configureProperties())
 
             // Pipe into topology
-            val inputTopic: TestInputTopic<String, Fish> =
+            val inputTopic =
                 testDriver.createInputTopic("machine-measurement", StringSerializer(), FishSerde())
 
             inputTopic.pipeInput("testId", input)
 
             // Consume output topic
-            val output: TestOutputTopic<String, Fish> =
+            val output =
                 testDriver.createOutputTopic("weight-prediction", StringDeserializer(), FishSerde())
 
             // Test
