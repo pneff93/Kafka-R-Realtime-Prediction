@@ -111,7 +111,7 @@ services:
       - kafkaProducer
 
   rstudio:
-    image: rstudio/plumber:0.0.22
+    image: rstudio/plumber:0.0.23
     build: ./R
     container_name: rstudio
     ports:
