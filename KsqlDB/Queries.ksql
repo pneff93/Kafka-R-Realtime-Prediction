@@ -29,7 +29,8 @@ AS SELECT
     PREDICTED_WEIGHT."Prediction"->"Weight" AS "PredictedWeight",
     ACTUAL_WEIGHT."Weight" AS "ActualWeight",
     ROUND(ABS(PREDICTED_WEIGHT."Prediction"->"Weight" - ACTUAL_WEIGHT."Weight") / ACTUAL_WEIGHT."Weight", 3) AS "Diff",
-    PREDICTED_WEIGHT."Prediction"->"ModelTime" AS "ModelTime"
+    PREDICTED_WEIGHT."Prediction"->"ModelTime" AS "ModelTime",
+    ACTUAL_WEIGHT."Timestamp" AS "Timestamp"
 FROM PREDICTED_WEIGHT
 INNER JOIN ACTUAL_WEIGHT
 WITHIN 1 MINUTE

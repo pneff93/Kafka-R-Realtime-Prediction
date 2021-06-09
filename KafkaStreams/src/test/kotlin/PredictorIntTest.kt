@@ -21,7 +21,7 @@ class PredictorIntTest: StringSpec() {
 
             response.Length shouldBe request.Length
             response.Height shouldBe request.Height
-            response.Timestamp shouldBe request.Timestamp
+            response.Species shouldBe request.Species
             response.Prediction shouldNotBe null
         }
     }
