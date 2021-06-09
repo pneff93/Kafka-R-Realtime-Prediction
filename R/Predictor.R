@@ -42,7 +42,7 @@ train <- function(){
     
     dataAggr <- connection$aggregate('[
                 {"$sort": {"Timestamp": -1}},
-                {"$limit": 500}
+                {"$limit": 50}
                                    ]')
   
     data <- dataAggr %>% select(length = Length, height = Height, weight = ActualWeight, species = Species)
