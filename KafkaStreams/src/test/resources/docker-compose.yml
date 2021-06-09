@@ -2,7 +2,7 @@ version: '2'
 services:
 
   model:
-    image: model:0.0.1
+    image: model:0.0.2
     container_name: model
     ports:
       - 8000:8000

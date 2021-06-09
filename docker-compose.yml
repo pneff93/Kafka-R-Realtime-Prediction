@@ -104,7 +104,7 @@ services:
       - broker
 
   kafkaStreams:
-    image: kafkastreams:0.0.9
+    image: kafkastreams:0.0.10
     build: ./KafkaStreams
     container_name: kafkaStreams
     depends_on:
