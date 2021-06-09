@@ -96,7 +96,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
 
   kafkaProducer:
-    image: kafkaproducer:0.0.4
+    image: kafkaproducer:0.0.5
     build: ./KafkaProducer
     container_name: kafkaProducer
     depends_on:
@@ -104,14 +104,14 @@ services:
       - broker
 
   kafkaStreams:
-    image: kafkastreams:0.0.8
+    image: kafkastreams:0.0.9
     build: ./KafkaStreams
     container_name: kafkaStreams
     depends_on:
       - kafkaProducer
 
   rstudio:
-    image: rstudio/plumber:0.0.20
+    image: rstudio/plumber:0.0.21
     build: ./R
     container_name: rstudio
     ports:
