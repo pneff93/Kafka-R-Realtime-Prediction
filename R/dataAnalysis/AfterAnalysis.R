@@ -20,7 +20,7 @@ ggplot() +
   annotate("text", x = 35, y = 1.2, label = "Retraining Data") +
   geom_line(data = data, aes(x = seq(1, 169), y = Diff)) +
   geom_point(data = data, aes(x = 66, y = Diff[66])) +
-  geom_hline(yintercept = 0.1, linetype = "dashed", color = "red") +
+  geom_hline(yintercept = 0.15, linetype = "dashed", color = "red") +
   xlab("events") + ylab("error") +
   ggtitle("Model Behaviour")
 
@@ -33,6 +33,6 @@ ggplot() +
   annotate("text", x = 78, y = 1.2, label = "Walleye") +
   annotate("text", x = 140, y = 1.2, label = "Salmon") +
   geom_line(data = data, aes(x = seq(1, 169), y = Diff)) +
-  geom_hline(yintercept = 0.1, linetype = "dashed", color = "red") +
+  geom_hline(yintercept = 0.15, linetype = "dashed", color = "red") +
   xlab("events") + ylab("error") +
   ggtitle("Error Behaviour")
