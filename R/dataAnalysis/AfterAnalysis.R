@@ -2,15 +2,37 @@ load("dataAnalyzed.RData")
 
 library(ggplot2)
 
-# Model getriggert
-# 47 bis 61 erste Analye danach
-# 62 bis 86
+# Model triggered
+# id: 44 to 73
 
 # Model applied
-# 78
-# 102
+# id : 77
 
-ggplot(data = data) + geom_line(aes(x = seq(1, 170), y = Diff, color = Species)) +
-  xlab("events") + ylab("difference prediction vs. actual") +
-  geom_vline(xintercept = 47) + geom_vline(xintercept = 61) +
-  geom_hline(yintercept = 0.1, linetype = "dashed", color = "red")
+# because id != data index
+# we need to subtract every time 11
+
+ggplot() +
+  geom_rect(aes(xmin = 33, xmax = 62, ymin = -Inf, ymax = Inf), fill = "lightgreen", alpha = 0.7) +
+  geom_rect(aes(xmin = 12, xmax = 62, ymin = -Inf, ymax = Inf), fill = "lightgreen", alpha = 0.5) +
+  geom_rect(aes(xmin = 62, xmax = 66, ymin = -Inf, ymax = Inf), fill = "lightblue", alpha = 0.7) +
+  annotate("text", x = 64, y = 1.1, label = "Retraining") +
+  annotate("text", x = 45, y = 1.1, label = "Trigger") +
+  annotate("text", x = 35, y = 1.2, label = "Retraining Data") +
+  geom_line(data = data, aes(x = seq(1, 169), y = Diff)) +
+  geom_point(data = data, aes(x = 66, y = Diff[66])) +
+  geom_hline(yintercept = 0.1, linetype = "dashed", color = "red") +
+  xlab("events") + ylab("error") +
+  ggtitle("Model Behaviour")
+
+
+ggplot() +
+  geom_rect(aes(xmin = 1, xmax = 49, ymin = -Inf, ymax = Inf), fill = "steelblue", alpha = 0.5) +
+  geom_rect(aes(xmin = 50, xmax = 109, ymin = -Inf, ymax = Inf), fill = "darkred", alpha = 0.5) +
+  geom_rect(aes(xmin = 110, xmax = 169, ymin = -Inf, ymax = Inf), fill = "steelblue", alpha = 0.5) +
+  annotate("text", x = 24, y = 1.2, label = "Salmon") +
+  annotate("text", x = 78, y = 1.2, label = "Walleye") +
+  annotate("text", x = 140, y = 1.2, label = "Salmon") +
+  geom_line(data = data, aes(x = seq(1, 169), y = Diff)) +
+  geom_hline(yintercept = 0.1, linetype = "dashed", color = "red") +
+  xlab("events") + ylab("error") +
+  ggtitle("Error Behaviour")
