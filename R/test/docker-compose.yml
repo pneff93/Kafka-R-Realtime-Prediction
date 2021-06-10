@@ -2,7 +2,7 @@ version: '2'
 services:
 
   model:
-    image: model:0.0.14
+    image: model:0.0.16
     build:
       context: ../
       dockerfile: Dockerfile
@@ -21,7 +21,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
 
   mongo-seed:
-    image: seed:0.0.5
+    image: seed:0.0.6
     build:
       context: .
       dockerfile: MongoDBDockerfile

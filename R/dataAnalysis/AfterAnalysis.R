@@ -10,7 +10,7 @@ library(ggplot2)
 # 78
 # 102
 
-ggplot(data = data) + geom_line(aes(x = seq(1, 170), y = Diff), color = "steelblue") +
+ggplot(data = data) + geom_line(aes(x = seq(1, 170), y = Diff, color = Species)) +
   xlab("events") + ylab("difference prediction vs. actual") +
-  geom_vline(xintercept = 61) + geom_vline(xintercept = 78) +
-  geom_hline(yintercept = 0.1)
+  geom_vline(xintercept = 47) + geom_vline(xintercept = 61) +
+  geom_hline(yintercept = 0.1, linetype = "dashed", color = "red")
