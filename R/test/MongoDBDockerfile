@@ -1,0 +1,4 @@
+FROM mongo
+
+COPY postTestData.json /postTestData.json
+CMD mongoimport --host mongo --authenticationDatabase admin --username user --password password --db Weight --collection TrainingData --type json --file /postTestData.json --jsonArray

@@ -1,0 +1,135 @@
+version: '2'
+services:
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:6.2.0
+    hostname: zookeeper
+    container_name: zookeeper
+    ports:
+      - 2181:2181
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  broker:
+    image: confluentinc/cp-enterprise-kafka:6.2.0
+    hostname: broker
+    container_name: broker
+    depends_on:
+      - zookeeper
+    ports:
+      - 9092:9092
+      - 9101:9101
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: EXTERNAL:PLAINTEXT,INTERNAL:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://broker:29092,INTERNAL://localhost:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+
+  create-topics:
+    image: confluentinc/cp-enterprise-kafka:6.2.0
+    hostname: create-topics
+    container_name: create-topics
+    depends_on:
+      - broker
+    command:
+      - bash
+      - -c
+      - |
+        cub kafka-ready -b broker:29092 1 120 && \
+        kafka-topics --create --zookeeper zookeeper:2181 --partitions 1 --replication-factor 1 --topic weight-train
+        kafka-topics --create --zookeeper zookeeper:2181 --partitions 1 --replication-factor 1 --topic weight-diff
+    environment:
+      KAFKA_BROKER_ID: ignored
+      KAFKA_ZOOKEEPER_CONNECT: ignored
+
+  connect:
+    image: confluentinc/cp-kafka-connect-base:6.2.0
+    hostname: connect
+    container_name: connect
+    depends_on:
+      - broker
+    ports:
+      - 8083:8083
+    environment:
+      CONNECT_BOOTSTRAP_SERVERS: broker:29092
+      CONNECT_REST_ADVERTISED_HOST_NAME: connect
+      CONNECT_REST_PORT: 8083
+      CONNECT_GROUP_ID: compose-connect-group
+      CONNECT_CONFIG_STORAGE_TOPIC: docker-connect-configs
+      CONNECT_OFFSET_STORAGE_TOPIC: docker-connect-offsets
+      CONNECT_STATUS_STORAGE_TOPIC: docker-connect-status
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.storage.StringConverter
+      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_CONNECTOR_CLIENT_CONFIG_OVERRIDE_POLICY: All
+    command:
+      - bash
+      - -c
+      - |
+        confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:1.5.0
+        confluent-hub install --no-prompt confluentinc/kafka-connect-http:1.4.0
+        /etc/confluent/docker/run &
+        sleep infinity
+
+  ksqldb-server:
+    image: confluentinc/cp-ksqldb-server:6.2.0
+    hostname: ksqldb-server
+    container_name: ksqldb-server
+    depends_on:
+      - broker
+      - connect
+    ports:
+      - 8088:8088
+    environment:
+      KSQL_CONFIG_DIR: "/etc/ksql"
+      KSQL_BOOTSTRAP_SERVERS: broker:29092
+      KSQL_HOST_NAME: ksqldb-server
+      KSQL_LISTENERS: "http://0.0.0.0:8088"
+
+  ksqldb-cli:
+    image: confluentinc/cp-ksqldb-cli:6.2.0
+    container_name: ksqldb-cli
+    depends_on:
+      - ksqldb-server
+    entrypoint: /bin/sh
+    tty: true
+
+  mongodb_container:
+    image: mongo:4.4.5
+    hostname: mongo
+    container_name: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+  kafkaProducer:
+    image: kafkaproducer:0.0.13
+    build: ./KafkaProducer
+    container_name: kafkaProducer
+    depends_on:
+      - ksqldb-cli
+      - broker
+
+  kafkaStreams:
+    image: kafkastreams:0.0.12
+    build: ./KafkaStreams
+    container_name: kafkaStreams
+    depends_on:
+      - kafkaProducer
+
+  rstudio:
+    image: rstudio/plumber:0.0.24
+    build: ./R
+    container_name: rstudio
+    ports:
+      - 8000:8000

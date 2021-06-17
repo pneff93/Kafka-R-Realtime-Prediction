@@ -1,0 +1,16 @@
+{
+  "name": "WeightData",
+  "config": {
+    "name": "WeightData",
+    "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "topics": "weight-diff",
+    "consumer.override.auto.offset.reset": "earliest",
+    "connection.uri": "mongodb://user:password@mongo:27017/admin",
+    "database": "Weight",
+    "collection": "TrainingData"
+  }
+}
