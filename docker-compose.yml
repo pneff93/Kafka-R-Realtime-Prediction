@@ -113,7 +113,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
 
   kafkaProducer:
-    image: kafkaproducer:0.0.12
+    image: kafkaproducer:0.0.13
     build: ./KafkaProducer
     container_name: kafkaProducer
     depends_on:

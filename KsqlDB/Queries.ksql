@@ -15,7 +15,7 @@ CREATE STREAM ACTUAL_WEIGHT(
 	"Weight" DOUBLE,
 	"Timestamp" VARCHAR
 	)
-WITH(KAFKA_TOPIC = 'weight-measurement', VALUE_FORMAT = 'JSON');
+WITH(KAFKA_TOPIC = 'machine-weight', VALUE_FORMAT = 'JSON');
 
 
 CREATE STREAM DIFF_WEIGHT

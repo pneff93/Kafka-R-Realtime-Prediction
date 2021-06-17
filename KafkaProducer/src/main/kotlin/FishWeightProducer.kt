@@ -21,7 +21,7 @@ class FishWeightProducer {
                 val fish = klaxon.parse<FishWeight>(event)!!
                 val dataJSON = klaxon.toJsonString(fish)
 
-                kafkaProducer.send(ProducerRecord("weight-measurement", fish.Fish_Id, dataJSON))
+                kafkaProducer.send(ProducerRecord("machine-weight", fish.Fish_Id, dataJSON))
                 logger.info("Weight produced with value: $dataJSON")
                 Thread.sleep(2000)
             }
