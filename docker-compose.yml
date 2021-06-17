@@ -2,7 +2,7 @@ version: '2'
 services:
 
   zookeeper:
-    image: confluentinc/cp-zookeeper:6.1.1
+    image: confluentinc/cp-zookeeper:6.2.0
     hostname: zookeeper
     container_name: zookeeper
     ports:
@@ -12,7 +12,7 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
 
   broker:
-    image: confluentinc/cp-enterprise-kafka:6.1.1
+    image: confluentinc/cp-enterprise-kafka:6.2.0
     hostname: broker
     container_name: broker
     depends_on:
@@ -31,8 +31,25 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
 
+  create-topics:
+    image: confluentinc/cp-enterprise-kafka:6.2.0
+    hostname: create-topics
+    container_name: create-topics
+    depends_on:
+      - broker
+    command:
+      - bash
+      - -c
+      - |
+        cub kafka-ready -b broker:29092 1 120 && \
+        kafka-topics --create --zookeeper zookeeper:2181 --partitions 1 --replication-factor 1 --topic weight-train
+        kafka-topics --create --zookeeper zookeeper:2181 --partitions 1 --replication-factor 1 --topic weight-diff
+    environment:
+      KAFKA_BROKER_ID: ignored
+      KAFKA_ZOOKEEPER_CONNECT: ignored
+
   connect:
-    image: confluentinc/cp-kafka-connect-base:6.1.1
+    image: confluentinc/cp-kafka-connect-base:6.2.0
     hostname: connect
     container_name: connect
     depends_on:
@@ -63,7 +80,7 @@ services:
         sleep infinity
 
   ksqldb-server:
-    image: confluentinc/cp-ksqldb-server:6.1.1
+    image: confluentinc/cp-ksqldb-server:6.2.0
     hostname: ksqldb-server
     container_name: ksqldb-server
     depends_on:
@@ -78,7 +95,7 @@ services:
       KSQL_LISTENERS: "http://0.0.0.0:8088"
 
   ksqldb-cli:
-    image: confluentinc/cp-ksqldb-cli:6.1.1
+    image: confluentinc/cp-ksqldb-cli:6.2.0
     container_name: ksqldb-cli
     depends_on:
       - ksqldb-server

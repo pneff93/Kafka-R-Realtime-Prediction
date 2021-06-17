@@ -15,7 +15,7 @@ weight <- 0.05 * length + 0.01 * height + error
 data1 <- data.frame(species = "salmon", id = seq(1, 60), length = length, height = height, weight = weight)
 
 
-# Walleye second shift : 4 min
+# Walleye second shift : 2 min
 set.seed(102)
 
 length <- round(rnorm(60, 81, 8), 3)
@@ -26,7 +26,7 @@ weight <- 0.02 * length + 0.04 * height + error
 data2 <- data.frame(species = "walleye", id = seq(61, 120), length = length, height = height, weight = weight)
 
 
-# Salmon third shift : 4 min
+# Salmon third shift : 2 min
 set.seed(103)
 
 length <- round(rnorm(60, 88, 5), 3)
