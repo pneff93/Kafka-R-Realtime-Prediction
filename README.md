@@ -23,7 +23,7 @@ as well as the weight continuously into two Kafka topics: `machine-weight` and `
 ### Kafka Streams
 A Kafka Streams application consumes the `machine-measurement` topic and communicates via REST API with R
 to predict the weight using linear regression. You can find a unit test for the
-topology as well as an integration test for the REST communication in _KafkaStreams/src/test/kotlin_.
+topology as well as an integration test for the REST communication [here](KafkaStreams/src/test/kotlin).
 
 ### ksqlDB
 In ksqlDB both streams are joined, and the prediction is compared with the actual weight (error).
@@ -34,7 +34,7 @@ The other connector acts as a trigger to do the retraining once the error exceed
 
 ### RStudio
 In R the model itself, the predict function, and the retraining function are stored and accessible via REST API.
-You can find a test in _R/test_.
+You can find a test [here](R/test).
 
 
 ## Run
