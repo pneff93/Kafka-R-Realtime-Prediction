@@ -1,6 +1,6 @@
 # Test Plumber API
 
-We want to test if all our REST APIs are working correctly.
+We want to test if the REST API is working correctly.
 Therefore, we start 3 containers:
 * The model provides the statistical models in R with its Plumber API.
 * We insert data into a MongoDB (75 data points), whereas the last 50 events used for retraining consist

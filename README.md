@@ -2,8 +2,8 @@
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-This tutorial explains how a machine learning model is used on real-time data.
-It predicts incoming data as well as is retrained when the prediction results decrease.
+This tutorial explains how a machine learning model is applied on real-time data.
+It predicts incoming data as well as it is retrained when the prediction results decrease.
 It focuses on simplicity and can be seen as a baseline for similar projects.
 
 
