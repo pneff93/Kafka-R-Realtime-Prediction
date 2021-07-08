@@ -3,7 +3,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 This tutorial explains how a machine learning model is applied on real-time data.
-It predicts incoming data as well as it is retrained when the prediction results decrease.
+It predicts incoming data as well as the model is retrained when the prediction results decrease.
 It focuses on simplicity and can be seen as a baseline for similar projects.
 
 
@@ -50,13 +50,13 @@ It starts:
 * Kafka Connect
     * with [MongoDB Source and Sink Connector](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
     * with [HTTP Sink Connector](https://www.confluent.io/hub/confluentinc/kafka-connect-http)
-* ksqldb Server
-* ksqldb Client 
+* ksqlDB Server
+* ksqlDB Client 
 * MongoDB  
 * Kafka Producer
-    * built docker image executing fatJar
+    * built docker image executing fat JAR
 * Kafka Streams
-    * built docker image executing fatJar
+    * built docker image executing fat JAR
 * RStudio
     * built docker image with RStudio with [plumber](https://cran.r-project.org/web/packages/plumber/plumber.pdf), [dplyr](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf), and [mongolite](https://cran.r-project.org/web/packages/mongolite/mongolite.pdf) installed and entrypoint
 
