@@ -1,4 +1,4 @@
-# Kafka-R: Realtime Prediction
+# Kafka-R: Real-time Prediction
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
