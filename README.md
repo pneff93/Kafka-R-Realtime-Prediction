@@ -17,7 +17,7 @@ It focuses on simplicity and can be seen as a baseline for similar projects.
 ![](image.png)
 
 ### Kafka Producer
-Let's go over the single parts of the data flow. A Kafka Producer produces fake data of a fish's size measurement
+Let's go over the single parts of the data flow. A Kafka Producer produces simulated data of a fish's size measurement
 as well as the weight continuously into two Kafka topics: `machine-weight` and `machine-measurement`.
 
 ### Kafka Streams
@@ -33,7 +33,7 @@ One connector stores data in MongoDB so that it can be used for retraining the r
 The other connector acts as a trigger to do the retraining once the error exceeds a threshold.
 
 ### RStudio
-In R the model itself, the predict function, and the retraining function are stored and accessible via REST API.
+In R the model itself, the prediction function, and the retraining function are stored and accessible via REST API.
 You can find a test [here](R/test).
 
 
@@ -77,7 +77,7 @@ docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
 Run all queries stored in [Queries.ksql](KsqlDB/Queries.ksql).
 
 ### Inspect Data Pipeline
-To see how the pipeline works, we look at the Stream `DIFF_WEIGHT`:
+To gain insights of the pipeline, we look at the Stream `DIFF_WEIGHT`:
 ```
 SELECT * FROM DIFF_WEIGHT EMIT CHANGES;
 ```
